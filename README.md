@@ -98,3 +98,8 @@ conda activate map-to-rdf
 python ./scripts/create_links.py
 ``` 
 
+
+## LICENSE 
+
+This repository modifies data from Plant Metabolic Network (PMN), PlantCyc and AraCyc repository. 
+It includes modified data derived from the PlantCyc / PMN databases. Original data © Carnegie Institution for Science. Licensed under the PMN Open Database License:  https://plantcyc.org/?webform=license-agreement
