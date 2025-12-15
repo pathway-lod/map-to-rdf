@@ -1,0 +1,7 @@
+name: map-to-rdf
+channels:
+  - conda-forge
+dependencies:
+  - python >=3.10
+  - rdflib >=7.0
+  - requests
