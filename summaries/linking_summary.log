@@ -18,3 +18,4 @@ Mapped IDs that matched plantiSMASH genes: 54
 Triples written (gene → belongsToBGC → bgc): 67
 Wrote bgc_links.ttl
 
+{"date": "2025-12-16T14:16:53", "organism": "Arabidopsis thaliana", "bridgedb_source_code": "A", "tair_genes_in_ttl": 1079, "direct_mibig_gene_hits": 13, "mapped_ids_hit_mibig": 39, "mapped_ids_hit_plantismash": 207, "mapped_xref_pairs_total": 30441, "ro_has_part_triples": 259, "output_ttl": "output_ttl/bgc_links.ttl"}
