@@ -28,4 +28,6 @@ Open a Terminal (can be done inside Rstudio:, next to the Console button in the 
 python --version
 python.exe -m pip install --upgrade pip
 python -m pip install rdflib
+
+pip install requests
 ```
