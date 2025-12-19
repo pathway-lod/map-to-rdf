@@ -1,5 +1,6 @@
 @prefix at: <https://www.arabidopsis.org/results?mainType=general&category=genes&searchText=> .
 @prefix atid: <https://identifiers.org/tair.name/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ncbi: <http://purl.obolibrary.org/obo/NCBITaxon_> .
 @prefix obo: <http://purl.obolibrary.org/obo/RO_> .
@@ -87,6 +88,7 @@
         at:AT1G23935,
         at:AT1G2393_1,
         at:AT1G2393_2 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -118,6 +120,7 @@
         at:AT3G1045_2,
         at:AT3G1045_3,
         at:AT3G10460 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -161,6 +164,7 @@
         slidNCBI:112940917,
         slidNCBI:112940918,
         slidNCBI:138347441 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 

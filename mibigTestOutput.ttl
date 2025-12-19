@@ -1,3 +1,4 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ex: <https://mibig.secondarymetabolites.org/repository/> .
 @prefix ncbi: <http://purl.obolibrary.org/obo/NCBITaxon_> .
 @prefix obo: <http://purl.obolibrary.org/obo/RO_> .
@@ -10,6 +11,7 @@ ex:BGC0002404 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_004252845.1,
         sl:XP_004252862.1,
         sl:XP_019067121.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -18,6 +20,7 @@ ex:BGC0002405 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_004243626.1,
         sl:XP_004243893.1,
         sl:XP_019070278.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 

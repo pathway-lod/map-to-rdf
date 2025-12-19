@@ -7,7 +7,7 @@ import requests
 ###################### Import PlantIsMash Data and Convert to RDF ######################
 
 ##Declare if you want to use the test dataset or the full dataset
-input = "full" #Options: 'test' or 'full'
+input = "test" #Options: 'test' or 'full'
 
 if input == "test":
   #Simple test dataset to check the script is working as expected:
@@ -39,6 +39,10 @@ g.bind("pmwvocab", pmwType)
 ##WP vocabulary (to define the genes)
 wpType = Namespace("http://vocabularies.wikipathways.org/wp#")
 g.bind("wp", wpType)
+
+##Provenance links (dcterms:source predicate)
+dctermsType = Namespace("http://purl.org/dc/terms/")
+g.bind("dcterms", dctermsType)
 
 ##NCBI prefix for taxon IRIs
 ncbiTaxon = Namespace("http://purl.obolibrary.org/obo/NCBITaxon_")
@@ -118,6 +122,9 @@ for cluster_id, gene_list in data.items():
 
         ##Add information on data types in this RDF model
         g.add((cluster_uri, rdfType.type, pmwType.BiosyntheticGeneCluster))
+        ##Add information on data provenance
+        g.add((cluster_uri, dctermsType.source, Literal("plantiSMASH")))
+        
         ##Add organism name arabidopsis for cluster to specify better and avoid mismatches
         g.add((cluster_uri, wpType.organismName, Literal("Arabidopsis thaliana")))
         ##Add taxonomy ID for species arabidopsis:
@@ -161,6 +168,9 @@ for cluster_id, gene_list in data.items():
 
         ##Add information on data types in this RDF model
         g.add((cluster_uri, rdfType.type, pmwType.BiosyntheticGeneCluster))
+        ##Add information on data provenance
+        g.add((cluster_uri, dctermsType.source, Literal("plantiSMASH")))
+        
         g.add((cluster_uri, wpType.organismName, Literal("Solanum lycopersicum")))
         ##Add taxonomy ID for species tomato:
         g.add((cluster_uri, wpType.organism, ncbiTaxon['4081']))#4081
@@ -204,10 +214,10 @@ for cluster_id, gene_list in data.items():
 # Serialize data into output file
 if input == "test":
   #Simple test dataset to check the script is working as expected:
-  g.serialize("plantIsMashTestOutput.ttl", format="turtle")
+  g.serialize("plantiSmashTestOutput.ttl", format="turtle")
 elif input == "full":
   #full json from GitHub
-  g.serialize("plantIsMash.ttl", format="turtle")
+  g.serialize("plantiSmash.ttl", format="turtle")
 else:
   print("Select 'test' or 'full' for variable 'input' to run this script on the PlantIsMash dataset")
 
@@ -250,6 +260,10 @@ g.bind("pmwvocab", pmwType)
 ##WP vocabulary (to define the genes)
 wpType = Namespace("http://vocabularies.wikipathways.org/wp#")
 g.bind("wp", wpType)
+
+##Provenance links (dcterms:source predicate)
+dctermsType = Namespace("http://purl.org/dc/terms/")
+g.bind("dcterms", dctermsType)
 
 ##NCBI prefix for taxon IRIs
 ncbiTaxon = Namespace("http://purl.obolibrary.org/obo/NCBITaxon_")
@@ -310,6 +324,9 @@ for cluster_id, gene_list in data.items():
 
       ##Add information on data types in this RDF model
       g.add((cluster_uri, rdfType.type, pmwType.BiosyntheticGeneCluster))
+      ##Add information on data provenance
+      g.add((cluster_uri, dctermsType.source, Literal("MIBIG")))
+      
       ##Add organism name arabidopsis for cluster to specify better and avoid mismatches
       g.add((cluster_uri, wpType.organismName, Literal("Arabidopsis thaliana")))
       ##Add taxonomy ID for species arabidopsis:
@@ -346,6 +363,9 @@ for cluster_id, gene_list in data.items():
 
       ##Add information on data types in this RDF model
       g.add((cluster_uri, rdfType.type, pmwType.BiosyntheticGeneCluster))
+      ##Add information on data provenance
+      g.add((cluster_uri, dctermsType.source, Literal("MIBIG")))
+      
       ##Add organism name tomato for cluster to specify better and avoid mismatches
       g.add((cluster_uri, wpType.organismName, Literal("Solanum lycopersicum")))
       ##Add taxonomy ID for species tomato:

@@ -1,5 +1,6 @@
 @prefix at: <https://www.arabidopsis.org/results?mainType=general&category=genes&searchText=> .
 @prefix atid: <https://identifiers.org/tair.name/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ncbi: <http://purl.obolibrary.org/obo/NCBITaxon_> .
 @prefix obo: <http://purl.obolibrary.org/obo/RO_> .
@@ -28,6 +29,7 @@
         at:AT1G02040,
         at:AT1G02050,
         at:AT1G02060 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -78,6 +80,7 @@
         at:AT1G60550,
         at:AT1G60560,
         at:AT1G6056_1 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -92,6 +95,7 @@
         at:AT1G62820,
         at:AT1G62830,
         at:AT1G62840 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -128,6 +132,7 @@
         at:AT1G6301_4,
         at:AT1G6301_5,
         at:AT1G6301_6 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -145,6 +150,7 @@
         at:AT1G64980,
         at:AT1G6498_1,
         at:AT1G6498_2 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -163,6 +169,7 @@
         at:AT1G65890,
         at:AT1G65900,
         at:AT1G6590_1 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -246,6 +253,7 @@
         at:AT1G70550,
         at:AT1G7055_1,
         at:AT1G70560 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -291,6 +299,7 @@
         at:AT1G7339_4,
         at:AT1G7339_5,
         at:AT1G7339_6 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -322,6 +331,7 @@
         at:AT1G7858_1,
         at:AT1G7858_2,
         at:AT1G7858_3 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -356,6 +366,7 @@
         at:AT2G1248_1,
         at:AT2G1248_2,
         at:AT2G1248_3 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -409,6 +420,7 @@
         at:AT2G23100,
         at:AT2G23110,
         at:AT2G2311_1 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -431,6 +443,7 @@
         at:AT1G22440,
         at:AT1G22450,
         at:AT1G22460 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -448,6 +461,7 @@
         at:AT2G23260,
         at:AT2G23270,
         at:AT2G23290 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -464,6 +478,7 @@
         at:AT2G24210,
         at:AT2G24220,
         at:AT2G2422_1 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -511,6 +526,7 @@
         at:AT2G2631_4,
         at:AT2G26320,
         at:AT2G26330 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -547,6 +563,7 @@
         at:AT2G2939_4,
         at:AT2G2939_5,
         at:AT2G29400 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -561,6 +578,7 @@
         at:AT2G29740,
         at:AT2G29750,
         at:AT2G29760 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -579,6 +597,7 @@
         at:AT2G31800,
         at:AT2G31810,
         at:AT2G3181_1 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -604,6 +623,7 @@
         at:AT2G34860,
         at:AT2G3486_1,
         at:AT2G34870 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -626,6 +646,7 @@
         at:AT2G4029_1,
         at:AT2G4029_2,
         at:AT2G40300 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -651,6 +672,7 @@
         at:AT2G44525,
         at:AT2G44530,
         at:AT2G4453_1 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -678,6 +700,7 @@
         at:AT3G1027_1,
         at:AT3G10280,
         at:AT3G10290 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -759,6 +782,7 @@
         at:AT1G23935,
         at:AT1G2393_1,
         at:AT1G2393_2 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -790,6 +814,7 @@
         at:AT3G1045_2,
         at:AT3G1045_3,
         at:AT3G10460 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -828,6 +853,7 @@
         at:AT3G1374_3,
         at:AT3G1374_4,
         at:AT3G1374_5 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -845,6 +871,7 @@
         at:AT3G1455_1,
         at:AT3G1455_2,
         at:AT3G14560 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -863,6 +890,7 @@
         at:AT3G23860,
         at:AT3G2386_1,
         at:AT3G2386_2 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -882,6 +910,7 @@
         at:AT3G2925_1,
         at:AT3G2925_2,
         at:AT3G29260 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -890,6 +919,7 @@
         at:AT3G29410,
         at:AT3G2941_1,
         at:AT3G29430 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -908,6 +938,7 @@
         at:AT3G2963_2,
         at:AT3G2963_3,
         at:AT3G2963_4 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -917,6 +948,7 @@
         at:AT3G32047,
         at:AT3G32050,
         at:AT3G32090 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -934,6 +966,7 @@
         at:AT3G4514_1,
         at:AT3G45150,
         at:AT3G45160 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -949,6 +982,7 @@
         at:AT3G5317_2,
         at:AT3G5317_3,
         at:AT3G53180 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -977,6 +1011,7 @@
         at:AT1G24100,
         at:AT1G24110,
         at:AT1G24120 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -999,6 +1034,7 @@
         at:AT3G53300,
         at:AT3G53305,
         at:AT3G53310 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1023,6 +1059,7 @@
         at:AT3G5608_1,
         at:AT3G56090,
         at:AT3G56100 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1042,6 +1079,7 @@
         at:AT3G57060,
         at:AT3G5706_1,
         at:AT3G5706_2 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1059,6 +1097,7 @@
         at:AT4G12330,
         at:AT4G12334,
         at:AT4G12340 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1078,6 +1117,7 @@
         at:AT4G1341_1,
         at:AT4G1341_2,
         at:AT4G13420 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1091,6 +1131,7 @@
         at:AT4G14096,
         at:AT4G1409_1,
         at:AT4G14100 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1153,6 +1194,7 @@
         at:AT4G1541_2,
         at:AT4G1541_3,
         at:AT4G1541_4 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1187,6 +1229,7 @@
         at:AT4G16800,
         at:AT4G16807,
         at:AT4G16810 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1202,6 +1245,7 @@
         at:AT4G20240,
         at:AT4G2024_1,
         at:AT4G20250 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1234,6 +1278,7 @@
         at:AT4G2092_2,
         at:AT4G2092_3,
         at:AT4G2092_4 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1265,6 +1310,7 @@
         at:AT1G2448_1,
         at:AT1G2448_2,
         at:AT1G2448_3 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1291,6 +1337,7 @@
         at:AT4G23690,
         at:AT4G23700,
         at:AT4G2370_1 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1326,6 +1373,7 @@
         at:AT5G17050,
         at:AT5G17060,
         at:AT5G1706_1 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1341,6 +1389,7 @@
         at:AT5G2396_1,
         at:AT5G23970,
         at:AT5G23980 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1421,6 +1470,7 @@
         at:AT5G25810,
         at:AT5G25820,
         at:AT5G25830 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1449,6 +1499,7 @@
         at:AT5G36210,
         at:AT5G36220,
         at:AT5G3622_1 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1487,6 +1538,7 @@
         at:AT5G3812_3,
         at:AT5G38130,
         at:AT5G38140 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1503,6 +1555,7 @@
         at:AT5G42250,
         at:AT5G42260,
         at:AT5G42270 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1529,6 +1582,7 @@
         at:AT5G42590,
         at:AT5G42600,
         at:AT5G42610 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1558,6 +1612,7 @@
         at:AT5G4449_1,
         at:AT5G44500,
         at:AT5G4450_1 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1573,6 +1628,7 @@
         at:AT5G44650,
         at:AT5G44660,
         at:AT5G4466_1 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1592,6 +1648,7 @@
         at:AT1G3054_1,
         at:AT1G3054_2,
         at:AT1G3054_3 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1615,6 +1672,7 @@
         at:AT5G4801_1,
         at:AT5G48020,
         at:AT5G48030 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1635,6 +1693,7 @@
         at:AT5G4906_1,
         at:AT5G49070,
         at:AT5G4907_1 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1648,6 +1707,7 @@
         at:AT5G54010,
         at:AT5G54020,
         at:AT5G5402_1 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1677,6 +1737,7 @@
         at:AT5G5730_3,
         at:AT5G57320,
         at:AT5G5732_1 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1694,6 +1755,7 @@
         at:AT5G5878_1,
         at:AT5G5878_2,
         at:AT5G5878_3 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1714,6 +1776,7 @@
         at:AT5G63625,
         at:AT5G6362_1,
         at:AT5G6362_2 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1738,6 +1801,7 @@
         at:AT1G30760,
         at:AT1G3076_1,
         at:AT1G30780 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1827,6 +1891,7 @@
         at:AT1G4956_1,
         at:AT1G49570,
         at:AT1G49580 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1841,6 +1906,7 @@
         at:AT1G5282_1,
         at:AT1G5282_2,
         at:AT1G52830 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -1884,6 +1950,7 @@
         slidNCBI:112940917,
         slidNCBI:112940918,
         slidNCBI:138347441 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -1929,6 +1996,7 @@
         slidNCBI:101267167,
         slidNCBI:101267565,
         slidNCBI:112940465 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -1940,6 +2008,7 @@
         slidNCBI:101265381,
         slidNCBI:101265687,
         slidNCBI:138342031 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -1981,6 +2050,7 @@
         slidNCBI:138342309,
         slidNCBI:138342310,
         slidNCBI:778265 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2004,6 +2074,7 @@
         slidNCBI:101264289,
         slidNCBI:101264590,
         slidNCBI:104646055 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2016,6 +2087,7 @@
         slidNCBI:101267373,
         slidNCBI:104646027,
         slidNCBI:112940993 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2037,6 +2109,7 @@
         slidNCBI:101266782,
         slidNCBI:101267079,
         slidNCBI:112940025 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2053,6 +2126,7 @@
         slidNCBI:101257034,
         slidNCBI:101257525,
         slidNCBI:101258120 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2063,6 +2137,7 @@
         slidNCBI:101253043,
         slidNCBI:101253341,
         slidNCBI:101253647 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2077,6 +2152,7 @@
         slidNCBI:101247084,
         slidNCBI:101247383,
         slidNCBI:101255267 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2094,6 +2170,7 @@
         slidNCBI:101259125,
         slidNCBI:101259613,
         slidNCBI:101266197 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2104,6 +2181,7 @@
         slidNCBI:101247951,
         slidNCBI:101248229,
         slidNCBI:138340886 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2117,6 +2195,7 @@
         slidNCBI:101258238,
         slidNCBI:101259134,
         slidNCBI:101266804 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2130,6 +2209,7 @@
         slidNCBI:101255377,
         slidNCBI:101255673,
         slidNCBI:544313 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2181,6 +2261,7 @@
         slidNCBI:104646647,
         slidNCBI:138337037,
         slidNCBI:138347710 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2197,6 +2278,7 @@
         slidNCBI:101259831,
         slidNCBI:112941338,
         slidNCBI:138347958 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2211,6 +2293,7 @@
         slidNCBI:101250885,
         slidNCBI:101251178,
         slidNCBI:101251469 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2233,6 +2316,7 @@
         slidNCBI:101268682,
         slidNCBI:109120154,
         slidNCBI:138348229 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2275,6 +2359,7 @@
         slidNCBI:138336999,
         slidNCBI:138348447,
         slidNCBI:543802 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2289,6 +2374,7 @@
         slidNCBI:101260433,
         slidNCBI:101260725,
         slidNCBI:101261026 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2340,6 +2426,7 @@
         slidNCBI:138348644,
         slidNCBI:138348645,
         slidNCBI:138348646 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2351,6 +2438,7 @@
         slidNCBI:101262314,
         slidNCBI:101262619,
         slidNCBI:101262919 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2375,6 +2463,7 @@
         slidNCBI:101255531,
         slidNCBI:104648136,
         slidNCBI:109119983 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2390,6 +2479,7 @@
         slidNCBI:101268474,
         slidNCBI:101268762,
         slidNCBI:104647664 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2399,6 +2489,7 @@
         slidNCBI:101262426,
         slidNCBI:101262727,
         slidNCBI:104647982 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2422,6 +2513,7 @@
         slidNCBI:104648119,
         slidNCBI:138349390,
         slidNCBI:778303 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2434,6 +2526,7 @@
         slidNCBI:101244881,
         slidNCBI:101268694,
         slidNCBI:138349402 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2449,6 +2542,7 @@
         slidNCBI:101264528,
         slidNCBI:101264832,
         slidNCBI:101265139 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2490,6 +2584,7 @@
         slidNCBI:104648025,
         slidNCBI:104648026,
         slidNCBI:544268 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2503,6 +2598,7 @@
         slidNCBI:101261630,
         slidNCBI:101261928,
         slidNCBI:101262223 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2548,6 +2644,7 @@
         slidNCBI:138337537,
         slidNCBI:138337538,
         slidNCBI:138337539 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2570,6 +2667,7 @@
         slidNCBI:101258081,
         slidNCBI:104648481,
         slidNCBI:138337552 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2600,6 +2698,7 @@
         slidNCBI:138336997,
         slidNCBI:138337675,
         slidNCBI:138337770 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2619,6 +2718,7 @@
         slidNCBI:101266161,
         slidNCBI:138337266,
         slidNCBI:138337267 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2643,6 +2743,7 @@
         slidNCBI:101253401,
         slidNCBI:101253918,
         slidNCBI:101254013 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2690,6 +2791,7 @@
         slidNCBI:101261542,
         slidNCBI:104648859,
         slidNCBI:138337679 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2706,6 +2808,7 @@
         slidNCBI:101255909,
         slidNCBI:101257397,
         slidNCBI:101264659 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2729,6 +2832,7 @@
         slidNCBI:101268416,
         slidNCBI:101268708,
         slidNCBI:112942072 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2745,6 +2849,7 @@
         slidNCBI:101245195,
         slidNCBI:101264055,
         slidNCBI:112942132 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2756,6 +2861,7 @@
         slidNCBI:101245288,
         slidNCBI:101245582,
         slidNCBI:101254939 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2770,6 +2876,7 @@
         slidNCBI:138338123,
         slidNCBI:138338124,
         slidNCBI:138338654 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2783,6 +2890,7 @@
         slidNCBI:101257707,
         slidNCBI:101258005,
         slidNCBI:101268804 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2795,6 +2903,7 @@
         slidNCBI:101249961,
         slidNCBI:101250161,
         slidNCBI:101250740 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2806,6 +2915,7 @@
         slidNCBI:101252826,
         slidNCBI:101262961,
         slidNCBI:101263251 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2816,6 +2926,7 @@
         slidNCBI:101259369,
         slidNCBI:101259882,
         slidNCBI:101260175 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2826,6 +2937,7 @@
         slidNCBI:101259495,
         slidNCBI:101259795,
         slidNCBI:101260093 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2842,6 +2954,7 @@
         slidNCBI:101262577,
         slidNCBI:101263955,
         slidNCBI:112940090 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2856,6 +2969,7 @@
         slidNCBI:101261675,
         slidNCBI:101266884,
         slidNCBI:138338973 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2871,6 +2985,7 @@
         slidNCBI:104644402,
         slidNCBI:104644403,
         slidNCBI:138339169 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2892,6 +3007,7 @@
         slidNCBI:101251943,
         slidNCBI:104644457,
         slidNCBI:138339525 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2907,6 +3023,7 @@
         slidNCBI:101251735,
         slidNCBI:101252038,
         slidNCBI:101252346 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2922,6 +3039,7 @@
         slidNCBI:101268547,
         slidNCBI:101268839,
         slidNCBI:138339550 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2945,6 +3063,7 @@
         slidNCBI:101260901,
         slidNCBI:101261197,
         slidNCBI:138340680 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2962,6 +3081,7 @@
         slidNCBI:138340500,
         slidNCBI:138340572,
         slidNCBI:138340591 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -2978,6 +3098,7 @@
         slidNCBI:138340581,
         slidNCBI:138340627,
         slidNCBI:138340707 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -3004,6 +3125,7 @@
         slidNCBI:104649154,
         slidNCBI:108281193,
         slidNCBI:109118691 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -3015,6 +3137,7 @@
         slidNCBI:112940472,
         slidNCBI:138340529,
         slidNCBI:138340530 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -3034,6 +3157,7 @@
         slidNCBI:101266920,
         slidNCBI:101267215,
         slidNCBI:138340533 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -3049,6 +3173,7 @@
         slidNCBI:109119116,
         slidNCBI:109119172,
         slidNCBI:138340534 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -3067,6 +3192,7 @@
         slidNCBI:138340542,
         slidNCBI:138340543,
         slidNCBI:138340544 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -3082,6 +3208,7 @@
         slidNCBI:101267279,
         slidNCBI:101267569,
         slidNCBI:101268808 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -3098,6 +3225,7 @@
         slidNCBI:101267564,
         slidNCBI:101267654,
         slidNCBI:138347291 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -3118,6 +3246,7 @@
         slidNCBI:101263857,
         slidNCBI:112940693,
         slidNCBI:138340775 ;
+    dcterms:source "plantiSMASH" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 

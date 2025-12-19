@@ -1,5 +1,6 @@
 @prefix at: <https://www.arabidopsis.org/results?mainType=general&category=genes&searchText=> .
 @prefix atid: <https://identifiers.org/tair.name/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ex: <https://mibig.secondarymetabolites.org/repository/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ncbi: <http://purl.obolibrary.org/obo/NCBITaxon_> .
@@ -10,6 +11,7 @@
 
 ex:BGC0000669 a pmwvocab:BiosyntheticGeneCluster ;
     obo:has_part at:AT5G42591 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:3702 ;
     wp:organismName "Arabidopsis thaliana" .
 
@@ -29,6 +31,7 @@ ex:BGC0001220 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_020058104.1,
         sl:XP_020058105.1,
         sl:XP_020058106.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -147,6 +150,7 @@ ex:BGC0001281 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_011392762.1,
         sl:XP_011392763.1,
         sl:XP_011392764.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -155,6 +159,7 @@ ex:BGC0001475 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_001213594.1,
         sl:XP_001213595.1,
         sl:XP_001213596.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -166,6 +171,7 @@ ex:BGC0001516 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_002373815.1,
         sl:XP_002373816.1,
         sl:XP_002373817.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -174,6 +180,7 @@ ex:BGC0001517 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_001217688.1,
         sl:XP_001217689.1,
         sl:XP_001217690.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -184,6 +191,7 @@ ex:BGC0001545 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_011325837.1,
         sl:XP_011325838.1,
         sl:XP_011325839.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -205,6 +213,7 @@ ex:BGC0001617 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_007301852.1,
         sl:XP_007301853.1,
         sl:XP_007301854.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -219,6 +228,7 @@ ex:BGC0001621 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_002379991.1,
         sl:XP_002379992.1,
         sl:XP_002379993.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -228,6 +238,7 @@ ex:BGC0001718 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_020057669.1,
         sl:XP_020057670.1,
         sl:XP_020057671.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -237,6 +248,7 @@ ex:BGC0001768 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_003044552.1,
         sl:XP_003044553.1,
         sl:XP_003044554.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -257,6 +269,7 @@ ex:BGC0001865 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_001798923.1,
         sl:XP_001798924.1,
         sl:XP_001798925.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -270,6 +283,7 @@ ex:BGC0001866 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_028481818.1,
         sl:XP_028481819.1,
         sl:XP_028481820.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -278,6 +292,7 @@ ex:BGC0001989 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_453057.1,
         sl:XP_453058.1,
         sl:XP_453059.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -293,6 +308,7 @@ ex:BGC0001995 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_023093494.1,
         sl:XP_023093495.1,
         sl:XP_023093496.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -313,6 +329,7 @@ ex:BGC0001996 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_023094064.1,
         sl:XP_023094065.1,
         sl:XP_023094066.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -321,6 +338,7 @@ ex:BGC0001998 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_659389.1,
         sl:XP_659390.1,
         sl:XP_659391.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -336,11 +354,13 @@ ex:BGC0002390 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_035823697.1,
         sl:XP_035823698.1,
         sl:XP_035823699.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
 ex:BGC0002391 a pmwvocab:BiosyntheticGeneCluster ;
     obo:has_part sl:XP_008665446.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -359,6 +379,7 @@ ex:BGC0002395 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_044969123.1,
         sl:XP_044969124.1,
         sl:XP_044969126.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -366,6 +387,7 @@ ex:BGC0002400 a pmwvocab:BiosyntheticGeneCluster ;
     obo:has_part sl:XP_013584735.1,
         sl:XP_013584807.1,
         sl:XP_013637868.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -374,6 +396,7 @@ ex:BGC0002404 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_004252845.1,
         sl:XP_004252862.1,
         sl:XP_019067121.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -382,6 +405,7 @@ ex:BGC0002405 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_004243626.1,
         sl:XP_004243893.1,
         sl:XP_019070278.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -390,6 +414,7 @@ ex:BGC0002721 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_044984006.1,
         sl:XP_044984106.1,
         sl:XP_044984175.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -416,11 +441,13 @@ ex:BGC0002722 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_015166195.1,
         sl:XP_015166201.1,
         sl:XP_015166228.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
 ex:BGC0002723 a pmwvocab:BiosyntheticGeneCluster ;
     obo:has_part sl:XP_012066853.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -429,11 +456,13 @@ ex:BGC0002724 a pmwvocab:BiosyntheticGeneCluster ;
         sl:XP_037497843.1,
         sl:XP_037497844.1,
         sl:XP_037497855.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
 ex:BGC0003024 a pmwvocab:BiosyntheticGeneCluster ;
     obo:has_part sl:XP_754255.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
@@ -441,11 +470,13 @@ ex:BGC0003119 a pmwvocab:BiosyntheticGeneCluster ;
     obo:has_part sl:XP_020054771.1,
         sl:XP_020054772.1,
         sl:XP_020054773.1 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
 ex:BGC0003152 a pmwvocab:BiosyntheticGeneCluster ;
     obo:has_part sl:XP_793564.3 ;
+    dcterms:source "MIBIG" ;
     wp:organism ncbi:4081 ;
     wp:organismName "Solanum lycopersicum" .
 
