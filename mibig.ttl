@@ -1,0 +1,1736 @@
+@prefix at: <https://www.arabidopsis.org/results?mainType=general&category=genes&searchText=> .
+@prefix atid: <https://identifiers.org/tair.name/> .
+@prefix ex: <https://mibig.secondarymetabolites.org/repository/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ncbi: <http://purl.obolibrary.org/obo/NCBITaxon_> .
+@prefix obo: <http://purl.obolibrary.org/obo/RO_> .
+@prefix pmwvocab: <https://plantmetwiki.bioinformatics.nl/vocab/> .
+@prefix sl: <https://sr.iu.a.u-tokyo.ac.jp/db/protein.pl?mibig_accession=BGC0002405&protein_id=> .
+@prefix wp: <http://vocabularies.wikipathways.org/wp#> .
+
+ex:BGC0000669 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part at:AT5G42591 ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" .
+
+ex:BGC0001220 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_020058092.1,
+        sl:XP_020058093.1,
+        sl:XP_020058094.1,
+        sl:XP_020058095.1,
+        sl:XP_020058096.1,
+        sl:XP_020058097.1,
+        sl:XP_020058098.1,
+        sl:XP_020058099.1,
+        sl:XP_020058100.1,
+        sl:XP_020058101.1,
+        sl:XP_020058102.1,
+        sl:XP_020058103.1,
+        sl:XP_020058104.1,
+        sl:XP_020058105.1,
+        sl:XP_020058106.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0001281 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_011392651.1,
+        sl:XP_011392652.1,
+        sl:XP_011392653.1,
+        sl:XP_011392654.1,
+        sl:XP_011392655.1,
+        sl:XP_011392656.1,
+        sl:XP_011392657.1,
+        sl:XP_011392658.1,
+        sl:XP_011392659.1,
+        sl:XP_011392660.1,
+        sl:XP_011392661.1,
+        sl:XP_011392662.1,
+        sl:XP_011392663.1,
+        sl:XP_011392664.1,
+        sl:XP_011392665.1,
+        sl:XP_011392666.1,
+        sl:XP_011392667.1,
+        sl:XP_011392668.1,
+        sl:XP_011392669.1,
+        sl:XP_011392670.1,
+        sl:XP_011392671.1,
+        sl:XP_011392672.1,
+        sl:XP_011392673.1,
+        sl:XP_011392674.1,
+        sl:XP_011392675.1,
+        sl:XP_011392676.1,
+        sl:XP_011392677.1,
+        sl:XP_011392678.1,
+        sl:XP_011392679.1,
+        sl:XP_011392680.1,
+        sl:XP_011392681.1,
+        sl:XP_011392682.1,
+        sl:XP_011392683.1,
+        sl:XP_011392684.1,
+        sl:XP_011392685.1,
+        sl:XP_011392686.1,
+        sl:XP_011392687.1,
+        sl:XP_011392688.1,
+        sl:XP_011392689.1,
+        sl:XP_011392690.1,
+        sl:XP_011392691.1,
+        sl:XP_011392692.1,
+        sl:XP_011392693.1,
+        sl:XP_011392694.1,
+        sl:XP_011392695.1,
+        sl:XP_011392696.1,
+        sl:XP_011392697.1,
+        sl:XP_011392698.1,
+        sl:XP_011392699.1,
+        sl:XP_011392700.1,
+        sl:XP_011392701.1,
+        sl:XP_011392702.1,
+        sl:XP_011392703.1,
+        sl:XP_011392704.1,
+        sl:XP_011392705.1,
+        sl:XP_011392706.1,
+        sl:XP_011392707.1,
+        sl:XP_011392708.1,
+        sl:XP_011392709.1,
+        sl:XP_011392710.1,
+        sl:XP_011392711.1,
+        sl:XP_011392712.1,
+        sl:XP_011392713.1,
+        sl:XP_011392714.1,
+        sl:XP_011392715.1,
+        sl:XP_011392716.1,
+        sl:XP_011392717.1,
+        sl:XP_011392718.1,
+        sl:XP_011392719.1,
+        sl:XP_011392720.1,
+        sl:XP_011392721.1,
+        sl:XP_011392722.1,
+        sl:XP_011392723.1,
+        sl:XP_011392724.1,
+        sl:XP_011392725.1,
+        sl:XP_011392726.1,
+        sl:XP_011392727.1,
+        sl:XP_011392728.1,
+        sl:XP_011392729.1,
+        sl:XP_011392730.1,
+        sl:XP_011392731.1,
+        sl:XP_011392732.1,
+        sl:XP_011392733.1,
+        sl:XP_011392734.1,
+        sl:XP_011392735.1,
+        sl:XP_011392736.1,
+        sl:XP_011392737.1,
+        sl:XP_011392738.1,
+        sl:XP_011392739.1,
+        sl:XP_011392740.1,
+        sl:XP_011392741.1,
+        sl:XP_011392742.1,
+        sl:XP_011392743.1,
+        sl:XP_011392744.1,
+        sl:XP_011392745.1,
+        sl:XP_011392746.1,
+        sl:XP_011392747.1,
+        sl:XP_011392748.1,
+        sl:XP_011392749.1,
+        sl:XP_011392750.1,
+        sl:XP_011392751.1,
+        sl:XP_011392752.1,
+        sl:XP_011392753.1,
+        sl:XP_011392754.1,
+        sl:XP_011392755.1,
+        sl:XP_011392756.1,
+        sl:XP_011392757.1,
+        sl:XP_011392758.1,
+        sl:XP_011392759.1,
+        sl:XP_011392760.1,
+        sl:XP_011392761.1,
+        sl:XP_011392762.1,
+        sl:XP_011392763.1,
+        sl:XP_011392764.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0001475 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_001213593.1,
+        sl:XP_001213594.1,
+        sl:XP_001213595.1,
+        sl:XP_001213596.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0001516 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_002373811.1,
+        sl:XP_002373812.1,
+        sl:XP_002373813.1,
+        sl:XP_002373814.1,
+        sl:XP_002373815.1,
+        sl:XP_002373816.1,
+        sl:XP_002373817.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0001517 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_001217687.1,
+        sl:XP_001217688.1,
+        sl:XP_001217689.1,
+        sl:XP_001217690.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0001545 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_011325834.1,
+        sl:XP_011325835.1,
+        sl:XP_011325836.1,
+        sl:XP_011325837.1,
+        sl:XP_011325838.1,
+        sl:XP_011325839.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0001617 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_007301506.1,
+        sl:XP_007301558.1,
+        sl:XP_007301601.1,
+        sl:XP_007301602.1,
+        sl:XP_007301603.1,
+        sl:XP_007301843.1,
+        sl:XP_007301844.1,
+        sl:XP_007301845.1,
+        sl:XP_007301846.1,
+        sl:XP_007301847.1,
+        sl:XP_007301848.1,
+        sl:XP_007301849.1,
+        sl:XP_007301850.1,
+        sl:XP_007301851.1,
+        sl:XP_007301852.1,
+        sl:XP_007301853.1,
+        sl:XP_007301854.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0001621 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_002379984.1,
+        sl:XP_002379985.1,
+        sl:XP_002379986.1,
+        sl:XP_002379987.1,
+        sl:XP_002379988.1,
+        sl:XP_002379989.1,
+        sl:XP_002379990.1,
+        sl:XP_002379991.1,
+        sl:XP_002379992.1,
+        sl:XP_002379993.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0001718 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_020057667.1,
+        sl:XP_020057668.1,
+        sl:XP_020057669.1,
+        sl:XP_020057670.1,
+        sl:XP_020057671.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0001768 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_003044436.1,
+        sl:XP_003044437.1,
+        sl:XP_003044552.1,
+        sl:XP_003044553.1,
+        sl:XP_003044554.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0001865 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_001798910.1,
+        sl:XP_001798911.1,
+        sl:XP_001798912.1,
+        sl:XP_001798913.1,
+        sl:XP_001798914.1,
+        sl:XP_001798915.1,
+        sl:XP_001798916.1,
+        sl:XP_001798917.1,
+        sl:XP_001798918.1,
+        sl:XP_001798919.1,
+        sl:XP_001798920.1,
+        sl:XP_001798921.1,
+        sl:XP_001798922.1,
+        sl:XP_001798923.1,
+        sl:XP_001798924.1,
+        sl:XP_001798925.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0001866 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_028481812.1,
+        sl:XP_028481813.1,
+        sl:XP_028481814.1,
+        sl:XP_028481815.1,
+        sl:XP_028481816.1,
+        sl:XP_028481817.1,
+        sl:XP_028481818.1,
+        sl:XP_028481819.1,
+        sl:XP_028481820.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0001989 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_453056.1,
+        sl:XP_453057.1,
+        sl:XP_453058.1,
+        sl:XP_453059.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0001995 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_001826046.3,
+        sl:XP_001826049.1,
+        sl:XP_001826051.1,
+        sl:XP_001826052.1,
+        sl:XP_001826053.1,
+        sl:XP_023093491.1,
+        sl:XP_023093492.1,
+        sl:XP_023093493.1,
+        sl:XP_023093494.1,
+        sl:XP_023093495.1,
+        sl:XP_023093496.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0001996 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_001827192.1,
+        sl:XP_001827193.1,
+        sl:XP_001827195.1,
+        sl:XP_001827196.1,
+        sl:XP_001827200.3,
+        sl:XP_001827203.1,
+        sl:XP_001827204.1,
+        sl:XP_001827205.1,
+        sl:XP_001827206.1,
+        sl:XP_023094060.1,
+        sl:XP_023094061.1,
+        sl:XP_023094062.1,
+        sl:XP_023094063.1,
+        sl:XP_023094064.1,
+        sl:XP_023094065.1,
+        sl:XP_023094066.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0001998 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_659388.1,
+        sl:XP_659389.1,
+        sl:XP_659390.1,
+        sl:XP_659391.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0002390 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_008644819.1,
+        sl:XP_008644820.1,
+        sl:XP_008644821.2,
+        sl:XP_008681210.1,
+        sl:XP_008681439.1,
+        sl:XP_008681441.1,
+        sl:XP_020393230.1,
+        sl:XP_020408751.1,
+        sl:XP_035823697.1,
+        sl:XP_035823698.1,
+        sl:XP_035823699.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0002391 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_008665446.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0002395 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_044963914.1,
+        sl:XP_044963915.1,
+        sl:XP_044963916.1,
+        sl:XP_044963917.1,
+        sl:XP_044963918.1,
+        sl:XP_044964500.1,
+        sl:XP_044964509.1,
+        sl:XP_044969119.1,
+        sl:XP_044969120.1,
+        sl:XP_044969121.1,
+        sl:XP_044969122.1,
+        sl:XP_044969123.1,
+        sl:XP_044969124.1,
+        sl:XP_044969126.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0002400 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_013584735.1,
+        sl:XP_013584807.1,
+        sl:XP_013637868.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0002404 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_004252844.1,
+        sl:XP_004252845.1,
+        sl:XP_004252862.1,
+        sl:XP_019067121.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0002405 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_004243624.1,
+        sl:XP_004243626.1,
+        sl:XP_004243893.1,
+        sl:XP_019070278.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0002721 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_044983846.1,
+        sl:XP_044984006.1,
+        sl:XP_044984106.1,
+        sl:XP_044984175.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0002722 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_006351976.1,
+        sl:XP_006351977.1,
+        sl:XP_006351978.1,
+        sl:XP_006351979.1,
+        sl:XP_006351980.1,
+        sl:XP_006351981.1,
+        sl:XP_006351982.1,
+        sl:XP_006351983.1,
+        sl:XP_006351984.1,
+        sl:XP_006351985.1,
+        sl:XP_006351986.1,
+        sl:XP_006351987.1,
+        sl:XP_006351988.1,
+        sl:XP_006351989.1,
+        sl:XP_006351990.1,
+        sl:XP_006352054.1,
+        sl:XP_006352055.1,
+        sl:XP_006352056.1,
+        sl:XP_006352057.1,
+        sl:XP_015166195.1,
+        sl:XP_015166201.1,
+        sl:XP_015166228.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0002723 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_012066853.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0002724 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_037497842.1,
+        sl:XP_037497843.1,
+        sl:XP_037497844.1,
+        sl:XP_037497855.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0003024 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_754255.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0003119 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_020054771.1,
+        sl:XP_020054772.1,
+        sl:XP_020054773.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0003152 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_793564.3 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001213593.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001213594.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001213595.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001213596.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001217687.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001217688.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001217689.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001217690.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001798910.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001798911.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001798912.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001798913.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001798914.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001798915.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001798916.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001798917.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001798918.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001798919.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001798920.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001798921.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001798922.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001798923.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001798924.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001798925.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001826046.3 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001826049.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001826051.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001826052.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001826053.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001827192.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001827193.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001827195.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001827196.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001827200.3 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001827203.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001827204.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001827205.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_001827206.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_002373811.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_002373812.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_002373813.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_002373814.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_002373815.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_002373816.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_002373817.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_002379984.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_002379985.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_002379986.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_002379987.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_002379988.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_002379989.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_002379990.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_002379991.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_002379992.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_002379993.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_003044436.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_003044437.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_003044552.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_003044553.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_003044554.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_004243624.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_004243626.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_004243893.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_004252844.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_004252845.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_004252862.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_006351976.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_006351977.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_006351978.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_006351979.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_006351980.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_006351981.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_006351982.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_006351983.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_006351984.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_006351985.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_006351986.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_006351987.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_006351988.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_006351989.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_006351990.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_006352054.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_006352055.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_006352056.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_006352057.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_007301506.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_007301558.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_007301601.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_007301602.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_007301603.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_007301843.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_007301844.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_007301845.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_007301846.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_007301847.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_007301848.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_007301849.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_007301850.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_007301851.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_007301852.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_007301853.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_007301854.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_008644819.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_008644820.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_008644821.2 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_008665446.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_008681210.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_008681439.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_008681441.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011325834.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011325835.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011325836.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011325837.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011325838.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011325839.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392651.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392652.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392653.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392654.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392655.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392656.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392657.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392658.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392659.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392660.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392661.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392662.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392663.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392664.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392665.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392666.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392667.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392668.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392669.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392670.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392671.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392672.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392673.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392674.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392675.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392676.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392677.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392678.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392679.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392680.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392681.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392682.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392683.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392684.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392685.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392686.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392687.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392688.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392689.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392690.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392691.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392692.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392693.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392694.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392695.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392696.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392697.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392698.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392699.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392700.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392701.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392702.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392703.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392704.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392705.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392706.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392707.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392708.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392709.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392710.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392711.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392712.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392713.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392714.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392715.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392716.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392717.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392718.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392719.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392720.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392721.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392722.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392723.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392724.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392725.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392726.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392727.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392728.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392729.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392730.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392731.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392732.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392733.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392734.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392735.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392736.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392737.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392738.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392739.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392740.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392741.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392742.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392743.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392744.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392745.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392746.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392747.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392748.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392749.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392750.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392751.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392752.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392753.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392754.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392755.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392756.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392757.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392758.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392759.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392760.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392761.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392762.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392763.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_011392764.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_012066853.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_013584735.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_013584807.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_013637868.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_015166195.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_015166201.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_015166228.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_019067121.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_019070278.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020054771.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020054772.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020054773.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020057667.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020057668.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020057669.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020057670.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020057671.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020058092.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020058093.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020058094.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020058095.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020058096.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020058097.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020058098.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020058099.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020058100.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020058101.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020058102.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020058103.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020058104.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020058105.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020058106.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020393230.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_020408751.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_023093491.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_023093492.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_023093493.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_023093494.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_023093495.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_023093496.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_023094060.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_023094061.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_023094062.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_023094063.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_023094064.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_023094065.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_023094066.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_028481812.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_028481813.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_028481814.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_028481815.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_028481816.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_028481817.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_028481818.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_028481819.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_028481820.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_035823697.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_035823698.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_035823699.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_037497842.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_037497843.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_037497844.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_037497855.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_044963914.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_044963915.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_044963916.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_044963917.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_044963918.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_044964500.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_044964509.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_044969119.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_044969120.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_044969121.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_044969122.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_044969123.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_044969124.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_044969126.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_044983846.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_044984006.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_044984106.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_044984175.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_453056.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_453057.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_453058.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_453059.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_659388.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_659389.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_659390.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_659391.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_754255.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_793564.3 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+at:AT5G42591 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT5G42591 .
+

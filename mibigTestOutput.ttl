@@ -1,0 +1,55 @@
+@prefix ex: <https://mibig.secondarymetabolites.org/repository/> .
+@prefix ncbi: <http://purl.obolibrary.org/obo/NCBITaxon_> .
+@prefix obo: <http://purl.obolibrary.org/obo/RO_> .
+@prefix pmwvocab: <https://plantmetwiki.bioinformatics.nl/vocab/> .
+@prefix sl: <https://sr.iu.a.u-tokyo.ac.jp/db/protein.pl?mibig_accession=BGC0002405&protein_id=> .
+@prefix wp: <http://vocabularies.wikipathways.org/wp#> .
+
+ex:BGC0002404 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_004252844.1,
+        sl:XP_004252845.1,
+        sl:XP_004252862.1,
+        sl:XP_019067121.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+ex:BGC0002405 a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part sl:XP_004243624.1,
+        sl:XP_004243626.1,
+        sl:XP_004243893.1,
+        sl:XP_019070278.1 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_004243624.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_004243626.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_004243893.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_004252844.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_004252845.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_004252862.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_019067121.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+sl:XP_019070278.1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+

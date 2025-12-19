@@ -1,0 +1,853 @@
+@prefix at: <https://www.arabidopsis.org/results?mainType=general&category=genes&searchText=> .
+@prefix atid: <https://identifiers.org/tair.name/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ncbi: <http://purl.obolibrary.org/obo/NCBITaxon_> .
+@prefix obo: <http://purl.obolibrary.org/obo/RO_> .
+@prefix pmwvocab: <https://plantmetwiki.bioinformatics.nl/vocab/> .
+@prefix slEns: <https://plants.ensembl.org/Solanum_lycopersicum/Search/Results?species=Solanum_lycopersicum;idx=;q=> .
+@prefix slidEns: <http://identifiers.org/ensembl.plant:> .
+@prefix slidNCBI: <https://identifiers.org/ncbigene:> .
+@prefix wp: <http://vocabularies.wikipathways.org/wp#> .
+
+<https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-3> a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part at:AT1G23500,
+        at:AT1G23510,
+        at:AT1G2351_1,
+        at:AT1G2351_2,
+        at:AT1G23520,
+        at:AT1G2352_1,
+        at:AT1G2352_2,
+        at:AT1G2352_3,
+        at:AT1G23530,
+        at:AT1G23540,
+        at:AT1G2354_1,
+        at:AT1G23550,
+        at:AT1G23560,
+        at:AT1G2356_1,
+        at:AT1G23570,
+        at:AT1G2357_1,
+        at:AT1G2357_2,
+        at:AT1G23580,
+        at:AT1G23590,
+        at:AT1G2359_1,
+        at:AT1G23600,
+        at:AT1G2360_1,
+        at:AT1G23610,
+        at:AT1G23640,
+        at:AT1G23645,
+        at:AT1G2364_1,
+        at:AT1G23650,
+        at:AT1G23660,
+        at:AT1G23670,
+        at:AT1G2367_1,
+        at:AT1G23680,
+        at:AT1G23690,
+        at:AT1G2369_1,
+        at:AT1G2369_2,
+        at:AT1G2369_3,
+        at:AT1G23700,
+        at:AT1G2370_1,
+        at:AT1G2370_2,
+        at:AT1G23710,
+        at:AT1G23720,
+        at:AT1G2372_1,
+        at:AT1G2372_2,
+        at:AT1G2372_3,
+        at:AT1G23730,
+        at:AT1G2373_1,
+        at:AT1G23740,
+        at:AT1G23750,
+        at:AT1G2375_1,
+        at:AT1G23760,
+        at:AT1G23770,
+        at:AT1G23780,
+        at:AT1G23790,
+        at:AT1G23800,
+        at:AT1G2380_1,
+        at:AT1G23810,
+        at:AT1G23820,
+        at:AT1G2382_1,
+        at:AT1G23830,
+        at:AT1G23840,
+        at:AT1G23850,
+        at:AT1G23860,
+        at:AT1G2386_1,
+        at:AT1G2386_2,
+        at:AT1G2386_3,
+        at:AT1G23870,
+        at:AT1G23880,
+        at:AT1G2388_1,
+        at:AT1G23890,
+        at:AT1G2389_1,
+        at:AT1G23900,
+        at:AT1G2390_1,
+        at:AT1G2390_2,
+        at:AT1G23910,
+        at:AT1G23915,
+        at:AT1G23935,
+        at:AT1G2393_1,
+        at:AT1G2393_2 ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" .
+
+<https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-30> a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part at:AT3G10330,
+        at:AT3G10340,
+        at:AT3G10350,
+        at:AT3G1035_1,
+        at:AT3G10360,
+        at:AT3G10370,
+        at:AT3G10380,
+        at:AT3G1038_1,
+        at:AT3G10390,
+        at:AT3G1039_1,
+        at:AT3G1039_2,
+        at:AT3G1039_3,
+        at:AT3G10400,
+        at:AT3G10405,
+        at:AT3G10410,
+        at:AT3G10420,
+        at:AT3G1042_1,
+        at:AT3G10430,
+        at:AT3G10439,
+        at:AT3G10440,
+        at:AT3G1044_1,
+        at:AT3G10450,
+        at:AT3G10455,
+        at:AT3G1045_1,
+        at:AT3G1045_2,
+        at:AT3G1045_3,
+        at:AT3G10460 ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" .
+
+<https://plantismash.bioinformatics.nl/precalc/v2/Solanum_lycopersicum_GCF_036512215.1/#cluster-1> a pmwvocab:BiosyntheticGeneCluster ;
+    obo:has_part slidEns:ABCG1,
+        slidEns:ABCG1_1,
+        slidEns:ABCG1_2,
+        slidEns:ABCG1_3,
+        slidEns:Hcr9-0,
+        slidEns:Hcr9-0_1,
+        slidEns:JMJ524,
+        slidEns:JMJ524_1,
+        slidEns:SDH,
+        slidEns:loxC,
+        slidEns:loxF,
+        slidNCBI:101055528,
+        slidNCBI:101244219,
+        slidNCBI:101246950,
+        slidNCBI:101247357,
+        slidNCBI:101248511,
+        slidNCBI:101248809,
+        slidNCBI:101249950,
+        slidNCBI:101250006,
+        slidNCBI:101250832,
+        slidNCBI:101252211,
+        slidNCBI:101256511,
+        slidNCBI:101259185,
+        slidNCBI:101259966,
+        slidNCBI:101264455,
+        slidNCBI:101264753,
+        slidNCBI:101265060,
+        slidNCBI:101265670,
+        slidNCBI:101265955,
+        slidNCBI:101266252,
+        slidNCBI:101266256,
+        slidNCBI:101266553,
+        slidNCBI:101266857,
+        slidNCBI:104645663,
+        slidNCBI:104646371,
+        slidNCBI:109120155,
+        slidNCBI:112940917,
+        slidNCBI:112940918,
+        slidNCBI:138347441 ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidEns:ABCG1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" ;
+    foaf:page slEns:ABCG1 .
+
+slidEns:ABCG1_1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" ;
+    foaf:page slEns:ABCG1_1 .
+
+slidEns:ABCG1_2 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" ;
+    foaf:page slEns:ABCG1_2 .
+
+slidEns:ABCG1_3 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" ;
+    foaf:page slEns:ABCG1_3 .
+
+slidEns:Hcr9-0 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" ;
+    foaf:page slEns:Hcr9-0 .
+
+slidEns:Hcr9-0_1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" ;
+    foaf:page slEns:Hcr9-0_1 .
+
+slidEns:JMJ524 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" ;
+    foaf:page slEns:JMJ524 .
+
+slidEns:JMJ524_1 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" ;
+    foaf:page slEns:JMJ524_1 .
+
+slidEns:SDH a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" ;
+    foaf:page slEns:SDH .
+
+slidEns:loxC a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" ;
+    foaf:page slEns:loxC .
+
+slidEns:loxF a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" ;
+    foaf:page slEns:loxF .
+
+slidNCBI:101055528 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:101244219 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:101246950 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:101247357 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:101248511 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:101248809 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:101249950 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:101250006 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:101250832 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:101252211 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:101256511 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:101259185 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:101259966 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:101264455 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:101264753 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:101265060 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:101265670 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:101265955 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:101266252 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:101266256 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:101266553 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:101266857 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:104645663 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:104646371 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:109120155 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:112940917 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:112940918 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+slidNCBI:138347441 a wp:GeneProduct ;
+    wp:organism ncbi:4081 ;
+    wp:organismName "Solanum lycopersicum" .
+
+at:AT1G23500 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23500 .
+
+at:AT1G23510 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23510 .
+
+at:AT1G2351_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2351_1 .
+
+at:AT1G2351_2 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2351_2 .
+
+at:AT1G23520 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23520 .
+
+at:AT1G2352_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2352_1 .
+
+at:AT1G2352_2 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2352_2 .
+
+at:AT1G2352_3 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2352_3 .
+
+at:AT1G23530 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23530 .
+
+at:AT1G23540 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23540 .
+
+at:AT1G2354_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2354_1 .
+
+at:AT1G23550 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23550 .
+
+at:AT1G23560 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23560 .
+
+at:AT1G2356_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2356_1 .
+
+at:AT1G23570 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23570 .
+
+at:AT1G2357_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2357_1 .
+
+at:AT1G2357_2 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2357_2 .
+
+at:AT1G23580 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23580 .
+
+at:AT1G23590 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23590 .
+
+at:AT1G2359_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2359_1 .
+
+at:AT1G23600 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23600 .
+
+at:AT1G2360_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2360_1 .
+
+at:AT1G23610 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23610 .
+
+at:AT1G23640 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23640 .
+
+at:AT1G23645 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23645 .
+
+at:AT1G2364_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2364_1 .
+
+at:AT1G23650 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23650 .
+
+at:AT1G23660 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23660 .
+
+at:AT1G23670 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23670 .
+
+at:AT1G2367_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2367_1 .
+
+at:AT1G23680 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23680 .
+
+at:AT1G23690 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23690 .
+
+at:AT1G2369_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2369_1 .
+
+at:AT1G2369_2 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2369_2 .
+
+at:AT1G2369_3 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2369_3 .
+
+at:AT1G23700 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23700 .
+
+at:AT1G2370_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2370_1 .
+
+at:AT1G2370_2 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2370_2 .
+
+at:AT1G23710 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23710 .
+
+at:AT1G23720 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23720 .
+
+at:AT1G2372_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2372_1 .
+
+at:AT1G2372_2 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2372_2 .
+
+at:AT1G2372_3 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2372_3 .
+
+at:AT1G23730 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23730 .
+
+at:AT1G2373_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2373_1 .
+
+at:AT1G23740 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23740 .
+
+at:AT1G23750 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23750 .
+
+at:AT1G2375_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2375_1 .
+
+at:AT1G23760 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23760 .
+
+at:AT1G23770 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23770 .
+
+at:AT1G23780 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23780 .
+
+at:AT1G23790 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23790 .
+
+at:AT1G23800 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23800 .
+
+at:AT1G2380_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2380_1 .
+
+at:AT1G23810 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23810 .
+
+at:AT1G23820 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23820 .
+
+at:AT1G2382_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2382_1 .
+
+at:AT1G23830 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23830 .
+
+at:AT1G23840 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23840 .
+
+at:AT1G23850 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23850 .
+
+at:AT1G23860 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23860 .
+
+at:AT1G2386_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2386_1 .
+
+at:AT1G2386_2 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2386_2 .
+
+at:AT1G2386_3 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2386_3 .
+
+at:AT1G23870 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23870 .
+
+at:AT1G23880 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23880 .
+
+at:AT1G2388_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2388_1 .
+
+at:AT1G23890 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23890 .
+
+at:AT1G2389_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2389_1 .
+
+at:AT1G23900 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23900 .
+
+at:AT1G2390_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2390_1 .
+
+at:AT1G2390_2 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2390_2 .
+
+at:AT1G23910 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23910 .
+
+at:AT1G23915 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23915 .
+
+at:AT1G23935 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G23935 .
+
+at:AT1G2393_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2393_1 .
+
+at:AT1G2393_2 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT1G2393_2 .
+
+at:AT3G10330 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G10330 .
+
+at:AT3G10340 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G10340 .
+
+at:AT3G10350 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G10350 .
+
+at:AT3G1035_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G1035_1 .
+
+at:AT3G10360 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G10360 .
+
+at:AT3G10370 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G10370 .
+
+at:AT3G10380 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G10380 .
+
+at:AT3G1038_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G1038_1 .
+
+at:AT3G10390 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G10390 .
+
+at:AT3G1039_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G1039_1 .
+
+at:AT3G1039_2 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G1039_2 .
+
+at:AT3G1039_3 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G1039_3 .
+
+at:AT3G10400 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G10400 .
+
+at:AT3G10405 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G10405 .
+
+at:AT3G10410 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G10410 .
+
+at:AT3G10420 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G10420 .
+
+at:AT3G1042_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G1042_1 .
+
+at:AT3G10430 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G10430 .
+
+at:AT3G10439 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G10439 .
+
+at:AT3G10440 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G10440 .
+
+at:AT3G1044_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G1044_1 .
+
+at:AT3G10450 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G10450 .
+
+at:AT3G10455 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G10455 .
+
+at:AT3G1045_1 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G1045_1 .
+
+at:AT3G1045_2 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G1045_2 .
+
+at:AT3G1045_3 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G1045_3 .
+
+at:AT3G10460 a wp:GeneProduct ;
+    wp:organism ncbi:3702 ;
+    wp:organismName "Arabidopsis thaliana" ;
+    foaf:page atid:AT3G10460 .
+
