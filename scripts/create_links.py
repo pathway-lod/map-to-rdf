@@ -32,7 +32,7 @@ ORGANISM = "Arabidopsis thaliana"
 # Identifier conventions
 # ============================================================
 
-TAIR_URI_PREFIX = "https://identifiers.org/tair.locus/"
+TAIR_URI_PREFIX = "https://identifiers.org/tair.name/"
 WP_DATANODE = URIRef("http://vocabularies.wikipathways.org/wp#DataNode")
 
 # MIBiG via Bioregistry (stable!)
@@ -172,7 +172,7 @@ def main() -> int:
     out.bind("pmw", PMW)
     out.bind("ro", RO)
 
-    tair_re = re.compile(r"tair\.locus/([^/]+)$")
+    tair_re = re.compile(r"tair\.name/([^/]+)$")
 
     seen_clusters = set()
     has_part_triples = 0
