@@ -213,3 +213,16 @@ This repository modifies data from Plant Metabolic Network (PMN), PlantCyc and A
 It includes modified data derived from the PlantCyc / PMN databases. Original data © Carnegie Institution for Science. Licensed under the PMN Open Database License:  https://plantcyc.org/?webform=license-agreement
 
 The License for the code contained in this repository is available at [LICENSE](./LICENSE). 
+
+## Execute the script with Rstudio 
+We've tested the Python script in Rstudio (version 2025.09.2+418 "Cucumberleaf Sunflower" Release (12f6d5e22720bd78dbd926bb344efe12d0dce83d, 2025-10-20) for windows).
+If you want to run this code locally, you can use your own favorite GUI, or follow these steps in Rstudio:
+
+Open a Terminal (can be done inside Rstudio:, next to the Console button in the bottom left window)
+```bash
+python --version
+python.exe -m pip install --upgrade pip
+python -m pip install rdflib
+
+pip install requests
+```
