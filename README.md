@@ -4,56 +4,77 @@ Mapping biosynthetic gene clusters (BGCs) to PlantMetWiki / WikiPathways RDF
 
 Visit the PlantMetWiki webserver at: https://plantmetwiki.bioinformatics.nl/
 
-This repository links biosynthetic gene clusters (BGCs) from MIBiG and plantiSMASH to plant metabolic pathway genes represented in WikiPathways RDF, producing interoperable RDF crosslinks that can be queried via SPARQL.
+This repository converts biosynthetic gene cluster (BGC) data from MIBiG and plantiSMASH into interoperable RDF, suitable for integration with WikiPathways / PlantMetWiki and querying via SPARQL.
 
-The resulting RDF enables questions such as:
+⚠️ Important change in scope
+This repository now only converts BGC sources to RDF.
+Linking BGCs to pathways is intentionally done at the SPARQL/query layer, not during RDF generation.
 
-	•	Which genes in this pathway are part of a known BGC?
-	•	Which MIBiG or plantiSMASH clusters overlap with plant metabolic pathways?
-	•	Which pathways contain genes from a specific BGC (e.g. thalianol / arabidiol)?
+## What this repository produces
+
+The pipeline generates:
+	•	output_ttl/plantismash.ttl
+→ RDF representation of plantiSMASH-predicted BGCs
+	•	output_ttl/mibig.ttl
+→ RDF representation of MIBiG curated BGCs
+	•	summaries/bgc_conversion_summary.json
+→ per-source, per-species summary of generated content
+
+These RDF files can then be loaded into Virtuoso together with pathway RDF and queried jointly.
 
 ## Overview of the approach 
 
-Overview of the approach
+1. BGC-first modeling (not pathway-first)
 
-The pipeline:
+Biosynthetic gene clusters are treated as first-class RDF resources, independent of pathways.
 
-	1.	Reads pathway RDF (WikiPathways GPML → RDF)
-	2.	Loads BGC gene membership data from:
-        •	MIBiG (gene-based, curated)
-        •	plantiSMASH (predicted clusters)
-	3.	Matches pathway genes to BGC genes
-        •	Directly (when identifiers match)
-        •	Via BridgeDb identifier mapping
-	4.	Creates RDF triples where BGCs are first-class nodes
-	5.	Uses standard ontologies and stable identifiers
-	6.	Merges the new crosslinks back into the pathway RDF
+``` 
+BGC  ── ro:0000051 (has_part) ──▶ gene / member
+``` 
 
-## Identifier and ontology design choices
+Pathways are not modified at conversion time.
 
-## Cluster-centric modeling
-BGCs are represented as explicit RDF nodes, and genes are linked as parts of clusters:
+2. Conservative species assignment (no guessing)
+
+We only assign species when identifiers are reliable like in A. thaliana. 
+
+3. Untyped MiBIG clusters are preserved (by design)
+
+Many MIBiG clusters contain only protein accessions or non-locus identifiers.
+
+Instead of discarding them:
+	•	The cluster is kept
+	•	Gene membership is preserved
+	•	No wp:organism is added
+
+These are reported as “untyped” BGCs in the summary.
+
+This avoids:
+	•	incorrect biological claims
+	•	loss of curated knowledge
+
+
+## Ontologies and predicates used
+
+### Core model
+
 
 ```
-BGC  ── RO:has_part (RO:0000051) ──▶ Gene
-Gene ── RO:part_of (RO:0000050) ──▶ BGC
+BGC
+ ├─ ro:0000051 → gene / member
+ ├─ rdf:type → pmw:BiosyntheticGeneCluster
+ └─ dcterms:source → "MIBIG" | "plantiSMASH"
 ```
 Ontologies used
 
 | Purpose  | Ontology / Term  | 
 |---|---|
 |  Gene–cluster relation |  RO:0000051 (has_part) |  
-| Reverse relation  | RO:0000050 (part_of)  |   
 | Cluster type |  pmw:BiosyntheticGeneCluster |   
+| Gene type | wp:GeneProduct | 
 | Provenance |  dcterms:source | 
+| Species | wp:organism, wp:organismName | 
 
-The model is 
-```
-BGC
- ├─ has_part → gene
- ├─ rdf:type → pmw:BiosyntheticGeneCluster
- └─ dcterms:source → "MIBIG" / "plantiSMASH"
-```
 
 ### Stable identifiers for MIBiG (via Bioregistry) 
 
@@ -175,17 +196,14 @@ conda activate map-to-rdf
 
 #### 3.2 Run the script
 
-```
-python scripts/create_links.py
+```bash 
+python scripts/convert_bgc_to_rdf.py
 ``` 
 
 #### 3.3 Check the summaries generated 
 
 [/summaries](./summaries/)
 
-and the output rdf including the crosslinks 
-
-[./output_ttl/reactions_with_bgc_links.ttl](./output_ttl/reactions_with_bgc_links.ttl)
 
 #### 3.4 Optional: check sample SPARQL queries 
 
@@ -214,7 +232,9 @@ It includes modified data derived from the PlantCyc / PMN databases. Original da
 
 The License for the code contained in this repository is available at [LICENSE](./LICENSE). 
 
-## Execute the script with Rstudio 
+
+## Execute the script with Rstudio (optional for developers preferring this)
+
 We've tested the Python script in Rstudio (version 2025.09.2+418 "Cucumberleaf Sunflower" Release (12f6d5e22720bd78dbd926bb344efe12d0dce83d, 2025-10-20) for windows).
 If you want to run this code locally, you can use your own favorite GUI, or follow these steps in Rstudio:
 

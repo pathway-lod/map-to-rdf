@@ -3,6 +3,9 @@
 .Rproj.user/44E0F474/sources/prop/184E462B
 /.Rproj.user
 plantismash.json
+.Rhistory 
 # input and output files for the mapping
 input_ttl/*
 output_ttl/*
+# Claude Code guidance file
+CLAUDE.md
