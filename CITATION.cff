@@ -19,6 +19,9 @@ authors:
     given-names: Elena
     affiliation: Wageningen University & Research
     orcid: https://orcid.org/0000-0002-5443-2640
+  - family-names: Slenter
+    given-names: Denise
+    affiliation: Maastricht University
 keywords:
   - biosynthetic gene clusters
   - plant metabolism
@@ -33,18 +36,47 @@ keywords:
   - SPARQL
 references:
   - type: article
-    title: "MIBiG 3.0: a community-driven effort to annotate experimentally validated biosynthetic gene clusters"
+    title: "MIBiG 4.0: advancing biosynthetic gene cluster curation through global collaboration"
     authors:
-      - family-names: Terlouw
-        given-names: Barbara R.
+      - family-names: Zdouc
+        given-names: Mitja M.
+      - family-names: Blin
+        given-names: Kai
+      - family-names: Louwen
+        given-names: Nico L.L.
+      - family-names: Navarro
+        given-names: Jorge
+      - family-names: Loureiro
+        given-names: Catarina
     journal: Nucleic Acids Research
-    year: 2023
-    doi: 10.1093/nar/gkac1049
+    year: 2025
+    volume: 53
+    issue: D1
+    start: D678
+    end: D690
   - type: article
-    title: "plantiSMASH: automated identification, annotation and expression analysis of plant biosynthetic gene clusters"
+    title: "plantiSMASH 2.0: Improvements to Detection, Annotation, and Prioritization of Plant Biosynthetic Gene Clusters"
     authors:
+      - family-names: Del Pup
+        given-names: Elena
+      - family-names: Owen
+        given-names: Charlotte
+      - family-names: Luo
+        given-names: Ziqiang
+      - family-names: Augustijn
+        given-names: Hannah E.
+      - family-names: Draisma
+        given-names: Arjan
+      - family-names: Polturak
+        given-names: Guy
       - family-names: Kautsar
         given-names: Satria A.
-    journal: Nucleic Acids Research
-    year: 2017
-    doi: 10.1093/nar/gkx338
+      - family-names: Osbourn
+        given-names: Anne
+      - family-names: van der Hooft
+        given-names: Justin J.J.
+      - family-names: Medema
+        given-names: Marnix H.
+    journal: Journal of Molecular Biology
+    year: 2026
+    doi: 10.1016/j.jmb.2026.169798
