@@ -194,23 +194,47 @@ conda activate map-to-rdf
 
 ``` 
 
-#### 3.2 Run the script
+#### 3.2 (Optional) Download the pathway RDF for SPARQL testing
 
-```bash 
+The PlantMetWiki pathway RDF bundle is permanently archived on Zenodo:
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19928985-blue)](https://doi.org/10.5281/zenodo.19928985)
+
+```bash
+python scripts/download_pathways.py
+# Downloads all_pathways.ttl, reactions.ttl, all.ttl into input_ttl/
+```
+
+#### 3.3 Run the script
+
+```bash
+# Full run (reads from input/)
 python scripts/convert_bgc_to_rdf.py
-``` 
 
-#### 3.3 Check the summaries generated 
+# Quick test with bundled sample data
+python scripts/convert_bgc_to_rdf.py --test
+
+# One source only
+python scripts/convert_bgc_to_rdf.py --source plantismash
+
+# Offline / CI (skip BridgeDb HTTP calls)
+python scripts/convert_bgc_to_rdf.py --no-bridgedb
+```
+
+#### 3.4 Check the summaries generated
 
 [/summaries](./summaries/)
 
 
-#### 3.4 Optional: check sample SPARQL queries 
+#### 3.5 Optional: run SPARQL queries and BridgeDb-assisted pathway→BGC linking
 
-Adapt the script by pasting your test sample queries and run: 
+Run basic BGC queries, or include the pathway graph for BridgeDb-assisted linking:
 
-```
+```bash
+# BGC queries only
 python scripts/test_queries.py
+
+# BGC + pathway graph + BridgeDb pathway→BGC matching
+python scripts/test_queries.py --pathways input_ttl/all_pathways.ttl --max-genes 50
 ```
 
 Cheat sheet using the OBO Relations Ontology model: 
