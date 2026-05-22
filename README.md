@@ -36,9 +36,32 @@ Pathways are not modified at conversion time.
 
 2. Conservative species assignment (no guessing)
 
-We only assign species when identifiers are reliable like in A. thaliana. 
+We only assign species when identifiers are reliable like in A. thaliana.
 
-3. Untyped MiBIG clusters are preserved (by design)
+3. Known limitation: tomato annotation incompatibility
+
+Direct BGC↔pathway linking currently works only for *Arabidopsis thaliana*.
+For *Solanum lycopersicum* (tomato), the two data sources use gene models from
+**different genome annotations**:
+
+| Source | Genome annotation | Gene ID format |
+|---|---|---|
+| plantiSMASH | NCBI RefSeq (`GCF_036512215.1`) | Gene symbols (`ABCG1`, `loxC`) and LOC IDs |
+| PlantCyc / pathway graph | Phytozome / ITAG | Solyc IDs (`Solyc01g105890.2.1`) |
+
+NCBI RefSeq and the ITAG/Phytozome annotation generate different gene models
+and identifiers for the same genome. Gene symbols (e.g. `ABCG1`) are shared
+in principle but not systematically assigned, and the mapping is not 1:1.
+BridgeDb maintains a partial crosswalk between ITAG (Solyc) and NCBI Gene
+(LOC) IDs, but coverage is incomplete due to differences in gene model
+boundaries between annotation versions.
+
+As a result, tomato BGC clusters from plantiSMASH (1,025 gene links across
+63 clusters in the current dataset) cannot be directly joined to PlantCyc
+pathway genes without a BridgeDb-assisted identifier resolution step.
+This is a known data limitation, not a pipeline bug.
+
+4. Untyped MiBIG clusters are preserved (by design)
 
 Many MIBiG clusters contain only protein accessions or non-locus identifiers.
 

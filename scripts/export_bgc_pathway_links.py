@@ -79,6 +79,42 @@ WHERE {
 ORDER BY ?bgc ?gene
 """
 
+# Tomato join via Solyc IDs stored as Synonym_N properties in extra-properties TTL.
+# plantiSMASH stores tomato genes as ensembl.plant:SolycXXX; those same Solyc IDs
+# appear as pmw:gpmlProperty [ pmw:key "Synonym_N" ; pmw:value "SolycXXX" ] on
+# pathway DataNodes in the extra-properties TTL.
+QUERY_SOLYC_VIA_SYNONYM = """
+SELECT DISTINCT
+    ?gene ?pathway ?pathway_title ?bgc ?bgc_source ?bgc_species ?bgc_taxon
+WHERE {
+    # BGC tomato gene (ensembl.plant: IRI)
+    ?bgc obo:RO_0000051 ?gene .
+    ?bgc dcterms:source ?bgc_source .
+    OPTIONAL { ?bgc wp:organismName ?bgc_species . }
+    OPTIONAL { ?bgc wp:organism    ?bgc_taxon   . }
+    FILTER(STRSTARTS(STR(?gene), "http://identifiers.org/ensembl.plant:"))
+
+    # Extract Solyc ID string from the IRI
+    BIND(STRAFTER(STR(?gene), "ensembl.plant:") AS ?solyc_id)
+
+    # Find pathway DataNode with matching Synonym property
+    ?dataNode pmw:gpmlProperty ?prop .
+    ?prop pmw:key ?synKey ;
+          pmw:value ?solyc_id .
+    FILTER(STRSTARTS(?synKey, "Synonym_"))
+
+    # DataNode must be part of a pathway
+    ?dataNode dcterms:isPartOf ?pathway .
+    FILTER(STRSTARTS(STR(?pathway),
+           "http://rdf-plantmetwiki.bioinformatics.nl/pathways/"))
+
+    OPTIONAL { ?pathway dc:title      ?pathway_title . }
+    OPTIONAL { ?pathway rdfs:label    ?pathway_title . }
+    OPTIONAL { ?pathway dcterms:title ?pathway_title . }
+}
+ORDER BY ?bgc ?gene
+"""
+
 QUERY_DIRECT_GENE_ISPARTOF = """
 SELECT DISTINCT
     ?gene ?pathway ?pathway_title ?bgc ?bgc_source ?bgc_species ?bgc_taxon
@@ -182,6 +218,9 @@ def parse_args() -> argparse.Namespace:
                    default=Path("output_ttl/plantismash.ttl"))
     p.add_argument("--bgc-mibig", type=Path,
                    default=Path("output_ttl/mibig.ttl"))
+    p.add_argument("--properties-extra", type=Path,
+                   default=Path("input_ttl/all_gpml_properties_extra-plantcyc17.0.0-gpml2021.ttl"),
+                   help="Extra-properties TTL (needed for Solyc join)")
     p.add_argument("--output", type=Path,
                    default=Path("summaries/bgc_pathway_links.tsv"))
     return p.parse_args()
@@ -192,7 +231,8 @@ def main() -> int:
 
     g = Graph()
 
-    for ttl in (args.bgc_plantismash, args.bgc_mibig, args.pathways):
+    for ttl in (args.bgc_plantismash, args.bgc_mibig,
+                args.pathways, args.properties_extra):
         if not ttl.exists():
             print(f"[SKIP] {ttl} not found")
             continue
@@ -205,10 +245,11 @@ def main() -> int:
 
     all_rows: list[dict] = []
 
-    # Try both predicate patterns
+    # Run all join strategies
     for label, sparql in [
-        ("direct_via_datanode", QUERY_DIRECT_VIA_DATANODE),
-        ("direct_gene_ispartof", QUERY_DIRECT_GENE_ISPARTOF),
+        ("direct_via_datanode",   QUERY_DIRECT_VIA_DATANODE),
+        ("direct_gene_ispartof",  QUERY_DIRECT_GENE_ISPARTOF),
+        ("solyc_via_synonym",     QUERY_SOLYC_VIA_SYNONYM),
     ]:
         rows = run_query(g, sparql, label)
         print(f"  [{label}]: {len(rows)} links")
@@ -218,7 +259,7 @@ def main() -> int:
     seen = set()
     deduped = []
     for r in all_rows:
-        key = (r["gene_iri"], r["pathway_iri"], r["bgc_iri"])
+        key = (r["gene_iri"], r["pathway_iri"], r["bgc_iri"], r["link_type"])
         if key not in seen:
             seen.add(key)
             deduped.append(r)
