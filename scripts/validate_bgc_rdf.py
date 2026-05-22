@@ -219,7 +219,7 @@ def main() -> int:
             check_species(g, fname, r)
 
     print("\n── void-bgc.ttl ──")
-    check_void(root / "summaries" / "void-bgc.ttl", r)
+    check_void(root / "output_ttl" / "void-bgc.ttl", r)
 
     print("\n── bgc_pathway_links.tsv ──")
     check_link_table(root / "summaries" / "bgc_pathway_links.tsv", r)

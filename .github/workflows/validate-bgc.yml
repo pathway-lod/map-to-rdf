@@ -12,7 +12,6 @@ on:
       - "v*"
     paths:
       - "output_ttl/**.ttl"
-      - "summaries/**.ttl"
       - "summaries/**.tsv"
       - "scripts/**.py"
       - ".zenodo.json"
@@ -48,4 +47,4 @@ jobs:
         run: |
           python scripts/create_void_bgc.py --output /tmp/void-bgc-fresh.ttl
           echo "Diff between committed and freshly generated VoID:"
-          diff summaries/void-bgc.ttl /tmp/void-bgc-fresh.ttl || true
+          diff output_ttl/void-bgc.ttl /tmp/void-bgc-fresh.ttl || true

@@ -6,7 +6,7 @@ so both VoID files can be loaded into the same named graph in Virtuoso.
 
 Usage
 -----
-    python scripts/create_void_bgc.py --output summaries/void-bgc.ttl
+    python scripts/create_void_bgc.py --output output_ttl/void-bgc.ttl
 """
 
 from __future__ import annotations
@@ -139,7 +139,7 @@ def main() -> int:
     parser.add_argument("--mibig",       type=Path, default=Path("output_ttl/mibig.ttl"))
     parser.add_argument("--links",       type=Path, default=Path("summaries/bgc_pathway_links.tsv"),
                         help="BGC–pathway links TSV (to count link triples)")
-    parser.add_argument("--output",      type=Path, default=Path("summaries/void-bgc.ttl"))
+    parser.add_argument("--output",      type=Path, default=Path("output_ttl/void-bgc.ttl"))
     args = parser.parse_args()
 
     today = date.today().isoformat()
