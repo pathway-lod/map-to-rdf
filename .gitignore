@@ -9,7 +9,10 @@ input_ttl/*
 
 # output TTL files are committed so they are archived with each GitHub release
 # (files are small: plantismash.ttl ~650KB, mibig.ttl ~112KB)
-# Exception: do NOT commit large intermediate files
+# Exception: do NOT commit large intermediate files or old root-level TTLs
 output_ttl/*.json
+mibig.ttl
+plantIsMash.ttl
+plantismash.ttl
 # Claude Code guidance file
 CLAUDE.md
