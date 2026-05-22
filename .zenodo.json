@@ -1,0 +1,65 @@
+{
+  "title": "PlantMetWiki BGC crosslinks: MIBiG and plantiSMASH to RDF",
+  "description": "RDF Turtle files linking biosynthetic gene cluster (BGC) data from MIBiG (curated) and plantiSMASH (predicted) to the PlantMetWiki / WikiPathways pathway knowledge graph, derived from PlantCyc 17.0. BGCs are typed as pmw:BiosyntheticGeneCluster and connected to pathway genes via RO:0000051 (has_part). For Arabidopsis thaliana, direct SPARQL joins are enabled through shared identifiers.org/tair.name/ IRIs. Includes VoID metadata, input gene-cluster membership JSON files, and a summary table of BGC–pathway gene crosslinks (199 unique links across 38 BGCs, 50 genes, and 109 metabolic pathways for Arabidopsis thaliana).",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "biosynthetic gene clusters",
+    "plant metabolism",
+    "RDF",
+    "linked data",
+    "MIBiG",
+    "plantiSMASH",
+    "WikiPathways",
+    "PlantMetWiki",
+    "PlantCyc",
+    "Arabidopsis thaliana",
+    "SPARQL",
+    "VoID"
+  ],
+  "creators": [
+    {
+      "name": "Del Pup, Elena",
+      "affiliation": "Wageningen University & Research",
+      "orcid": "0000-0002-5443-2640"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/pathway-lod/map-to-rdf",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.17967619",
+      "relation": "isPartOf",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.5281/zenodo.19928985",
+      "relation": "isDerivedFrom",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.1093/nar/gkac1049",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1093/nar/gkx338",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "plantmetwiki"
+    }
+  ],
+  "notes": "This dataset contains RDF representations of BGC data derived from three sources with different licenses:\n\n1. MIBiG (curated BGCs): Creative Commons Attribution 4.0 (CC BY 4.0). Cite: Terlouw et al. 2023, doi:10.1093/nar/gkac1049.\n\n2. plantiSMASH (predicted BGCs): Creative Commons Attribution 4.0 (CC BY 4.0). Cite: Kautsar et al. 2017, doi:10.1093/nar/gkx338.\n\n3. PlantCyc 17.0 (pathway gene annotations used for crosslinks): OPEN DATABASE LICENSE FOR THE PLANT METABOLIC NETWORK DATABASES (PMN). The databases may be used royalty-free worldwide and may be modified and redistributed, provided that derived copies clearly identify the source database(s), include applicable copyright notices and author lists, and identify or summarize modifications. See: https://plantcyc.org/?webform=license-agreement"
+}
