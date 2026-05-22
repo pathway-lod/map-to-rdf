@@ -293,10 +293,25 @@ def main() -> int:
         }
     """, "A5) Untyped BGC clusters (no species assigned)")
 
-    # ---- B) BridgeDb-assisted pathway→BGC linking ----
+    # ---- B1) Direct Arabidopsis join (no BridgeDb needed) ----
 
     if has_pathways:
-        sep("B) BridgeDb-assisted pathway→BGC linking")
+        run(g, """
+            SELECT DISTINCT ?pathway ?gene ?cluster ?source
+            WHERE {
+                ?pathway a wp:Pathway .
+                ?gene a wp:GeneProduct .
+                FILTER(STRSTARTS(STR(?gene), "https://identifiers.org/tair.locus/"))
+                ?cluster obo:RO_0000051 ?gene .
+                ?cluster dcterms:source ?source .
+            }
+            ORDER BY ?cluster ?gene
+        """, "B1) Direct Arabidopsis pathway↔BGC links (shared tair.locus IRI)")
+
+    # ---- B2) BridgeDb-assisted pathway→BGC linking (tomato) ----
+
+    if has_pathways:
+        sep("B2) BridgeDb-assisted pathway→BGC linking")
         print("  Strategy: TAIR locus → BridgeDb xrefs (NCBI Gene IDs) → BGC members")
 
         matches = find_bgc_links_via_bridgedb(g, max_genes=args.max_genes)
