@@ -2,6 +2,10 @@
 
 Mapping biosynthetic gene clusters (BGCs) to PlantMetWiki / WikiPathways RDF
 
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20345133-blue)](https://doi.org/10.5281/zenodo.20345133)
+[![GitHub Release](https://img.shields.io/github/v/release/pathway-lod/map-to-rdf?include_prereleases&sort=semver&display_name=tag&logo=github)](https://github.com/pathway-lod/map-to-rdf/releases)
+[![PlantMetWiki](https://img.shields.io/static/v1?label=webserver&message=PlantMetWiki&color=green)](https://plantmetwiki.bioinformatics.nl/)
+
 Visit the PlantMetWiki webserver at: https://plantmetwiki.bioinformatics.nl/
 
 This repository converts biosynthetic gene cluster (BGC) data from MIBiG and plantiSMASH into interoperable RDF, suitable for integration with WikiPathways / PlantMetWiki and querying via SPARQL.
