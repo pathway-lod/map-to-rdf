@@ -297,16 +297,27 @@ def main() -> int:
 
     if has_pathways:
         run(g, """
+            SELECT (COUNT(DISTINCT ?pathway) AS ?nPathways)
+                   (COUNT(DISTINCT ?gene)    AS ?nGenes)
+                   (COUNT(DISTINCT ?cluster) AS ?nClusters)
+            WHERE {
+                ?gene dcterms:isPartOf ?pathway .
+                FILTER(STRSTARTS(STR(?gene), "https://identifiers.org/tair.locus/"))
+                ?cluster obo:RO_0000051 ?gene .
+                ?cluster dcterms:source ?source .
+            }
+        """, "B1a) Count: distinct pathways / genes / BGC clusters linked")
+
+        run(g, """
             SELECT DISTINCT ?pathway ?gene ?cluster ?source
             WHERE {
-                ?pathway a wp:Pathway .
-                ?gene a wp:GeneProduct .
+                ?gene dcterms:isPartOf ?pathway .
                 FILTER(STRSTARTS(STR(?gene), "https://identifiers.org/tair.locus/"))
                 ?cluster obo:RO_0000051 ?gene .
                 ?cluster dcterms:source ?source .
             }
             ORDER BY ?cluster ?gene
-        """, "B1) Direct Arabidopsis pathway↔BGC links (shared tair.locus IRI)")
+        """, "B1b) Direct Arabidopsis pathway↔BGC links (gene in pathway AND in BGC)")
 
     # ---- B2) BridgeDb-assisted pathway→BGC linking (tomato) ----
 
