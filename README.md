@@ -243,7 +243,33 @@ python scripts/convert_bgc_to_rdf.py --source plantismash
 python scripts/convert_bgc_to_rdf.py --no-bridgedb
 ```
 
-#### 3.4 Check the summaries generated
+#### 3.4 Validate the generated RDF (run locally before committing)
+
+Always run the validation script before committing changes to the TTL files:
+
+```bash
+python scripts/validate_bgc_rdf.py
+```
+
+This checks 8 conditions across all output artefacts:
+
+| Check | What it verifies |
+|---|---|
+| TTL syntax | `plantismash.ttl` and `mibig.ttl` parse without errors |
+| Triple count | ≥ 1,000 triples (plantiSMASH) and ≥ 100 (MIBiG) |
+| Cluster types | All clusters typed as `pmw:BiosyntheticGeneCluster` |
+| Provenance | All clusters have `dcterms:source` |
+| Gene links | `RO:0000051` (has_part) triples are present |
+| Species | At least one `wp:organism` annotation |
+| VoID | `void-bgc.ttl` parses and declares both `void:Dataset` URIs |
+| Link table | `bgc_pathway_links.tsv` exists with all required columns |
+
+The same validation runs automatically on GitHub via the **Validate BGC RDF** Actions workflow:
+- On every push to `main` / `dev_edp` (path-filtered)
+- On every pull request to `main`
+- On every release tag (`bgc-*`, `v*`) — also diffs the VoID against a fresh generation
+
+#### 3.5 Check the summaries generated
 
 [/summaries](./summaries/)
 
