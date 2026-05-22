@@ -16,17 +16,20 @@ Files downloaded to input_ttl/:
 
 from __future__ import annotations
 
+import gzip
+import shutil
 import sys
 from pathlib import Path
 
 import requests
 
-CONCEPT_DOI   = "10.5281/zenodo.19928985"
-ZENODO_API    = "https://zenodo.org/api/records"
-OUTPUT_DIR    = Path("input_ttl")
+CONCEPT_DOI = "10.5281/zenodo.17967619"
+ZENODO_API  = "https://zenodo.org/api/records"
+OUTPUT_DIR  = Path("input_ttl")
 
-# Files to download from the record (subset — add more if needed)
-WANTED_FILES = {"all_pathways.ttl", "reactions.ttl", "all.ttl"}
+# Filename patterns to download (matched by substring).
+# Versioned names like all-plantcyc17.0.0-gpml2021.ttl.gz are matched by prefix.
+WANTED_PREFIXES = ("all-", "all_gpml_taxonomy_extra-", "all_gpml_properties_extra-")
 
 
 def resolve_concept_doi(concept_doi: str) -> dict:
@@ -74,21 +77,47 @@ def main() -> int:
     for f in files:
         print(f"  {f['key']}  ({f['size'] / 1e6:.1f} MB)")
 
-    to_download = [f for f in files if f["key"] in WANTED_FILES]
+    to_download = [f for f in files
+                   if any(f["key"].startswith(p) for p in WANTED_PREFIXES)]
     if not to_download:
-        print(f"[WARN] None of {WANTED_FILES} found in this record.")
+        print(f"[WARN] No files matching prefixes {WANTED_PREFIXES} found.")
+        print("Available files:", [f["key"] for f in files])
         return 1
 
     print(f"\nDownloading {len(to_download)} file(s) to {OUTPUT_DIR}/")
+    downloaded_ttls = []
     for f in to_download:
-        dest = OUTPUT_DIR / f["key"]
-        if dest.exists():
-            print(f"  [SKIP] {f['key']} already exists")
+        key  = f["key"]
+        dest = OUTPUT_DIR / key
+
+        if dest.exists() or (dest.with_suffix("") if key.endswith(".gz") else dest).exists():
+            print(f"  [SKIP] {key} already exists")
+            downloaded_ttls.append(dest.with_suffix("") if key.endswith(".gz") else dest)
             continue
+
         download_file(f["links"]["self"], dest)
 
-    print(f"\nDone. Run queries with:")
-    print(f"  python scripts/test_queries.py --pathways {OUTPUT_DIR}/all_pathways.ttl")
+        # Decompress .gz files in-place
+        if key.endswith(".gz"):
+            ttl_dest = dest.with_suffix("")  # strip .gz
+            print(f"  Decompressing → {ttl_dest.name} ...", end=" ")
+            with gzip.open(dest, "rb") as gz_in, ttl_dest.open("wb") as ttl_out:
+                shutil.copyfileobj(gz_in, ttl_out)
+            dest.unlink()  # remove .gz
+            print("done")
+            downloaded_ttls.append(ttl_dest)
+        else:
+            downloaded_ttls.append(dest)
+
+    print(f"\nFiles in {OUTPUT_DIR}/:")
+    for p in sorted(OUTPUT_DIR.glob("*.ttl")):
+        print(f"  {p.name}  ({p.stat().st_size / 1e6:.1f} MB)")
+
+    # Find the main combined TTL for the usage hint
+    main_ttl = next((p for p in downloaded_ttls if p.name.startswith("all-")), None)
+    if main_ttl:
+        print(f"\nRun queries with:")
+        print(f"  python scripts/test_queries.py --pathways {main_ttl}")
     return 0
 
 

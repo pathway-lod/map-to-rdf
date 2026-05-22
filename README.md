@@ -197,7 +197,7 @@ conda activate map-to-rdf
 #### 3.2 (Optional) Download the pathway RDF for SPARQL testing
 
 The PlantMetWiki pathway RDF bundle is permanently archived on Zenodo:
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19928985-blue)](https://doi.org/10.5281/zenodo.19928985)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17967619-blue)](https://doi.org/10.5281/zenodo.17967619)
 
 ```bash
 python scripts/download_pathways.py
