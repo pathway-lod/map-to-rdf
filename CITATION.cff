@@ -54,6 +54,7 @@ references:
     issue: D1
     start: D678
     end: D690
+    doi: 10.1093/nar/gkae1115
   - type: article
     title: "plantiSMASH 2.0: Improvements to Detection, Annotation, and Prioritization of Plant Biosynthetic Gene Clusters"
     authors:
