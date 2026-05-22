@@ -1,0 +1,50 @@
+name: Validate BGC RDF
+
+# Triggers:
+#   push / PR to main  — catch regressions on every change
+#   tag push (v*/bgc-*) — final gate before a Zenodo release
+
+on:
+  push:
+    branches: [main, dev_edp]
+    tags:
+      - "bgc-*"
+      - "v*"
+    paths:
+      - "output_ttl/**.ttl"
+      - "summaries/**.ttl"
+      - "summaries/**.tsv"
+      - "scripts/**.py"
+      - ".zenodo.json"
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    name: Validate BGC RDF artefacts
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install "rdflib>=7.0" requests
+
+      - name: Run BGC RDF validation
+        run: python scripts/validate_bgc_rdf.py
+
+      # On tag pushes only: also regenerate the VoID to confirm
+      # the counts match the committed artefacts
+      - name: Regenerate VoID and diff (tag releases only)
+        if: startsWith(github.ref, 'refs/tags/')
+        run: |
+          python scripts/create_void_bgc.py --output /tmp/void-bgc-fresh.ttl
+          echo "Diff between committed and freshly generated VoID:"
+          diff summaries/void-bgc.ttl /tmp/void-bgc-fresh.ttl || true
