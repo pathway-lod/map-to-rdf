@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite it as below."
+type: software
+title: "PlantMetWiki BGC crosslinks: MIBiG and plantiSMASH to RDF"
+version: bgc-v1.0
+date-released: 2026-05-22
+license: CC-BY-4.0
+repository-code: https://github.com/pathway-lod/map-to-rdf
+url: https://plantmetwiki.bioinformatics.nl/
+abstract: >
+  RDF Turtle files linking biosynthetic gene cluster (BGC) data from
+  MIBiG (curated) and plantiSMASH (predicted) to the PlantMetWiki /
+  WikiPathways pathway knowledge graph, derived from PlantCyc 17.0.
+  BGCs are typed as pmw:BiosyntheticGeneCluster and connected to pathway
+  genes via RO:0000051 (has_part). For Arabidopsis thaliana, direct
+  SPARQL joins are enabled through shared identifiers.org/tair.name/ IRIs.
+authors:
+  - family-names: Del Pup
+    given-names: Elena
+    affiliation: Wageningen University & Research
+    orcid: https://orcid.org/0000-0002-5443-2640
+keywords:
+  - biosynthetic gene clusters
+  - plant metabolism
+  - RDF
+  - linked data
+  - MIBiG
+  - plantiSMASH
+  - WikiPathways
+  - PlantMetWiki
+  - PlantCyc
+  - Arabidopsis thaliana
+  - SPARQL
+references:
+  - type: article
+    title: "MIBiG 3.0: a community-driven effort to annotate experimentally validated biosynthetic gene clusters"
+    authors:
+      - family-names: Terlouw
+        given-names: Barbara R.
+    journal: Nucleic Acids Research
+    year: 2023
+    doi: 10.1093/nar/gkac1049
+  - type: article
+    title: "plantiSMASH: automated identification, annotation and expression analysis of plant biosynthetic gene clusters"
+    authors:
+      - family-names: Kautsar
+        given-names: Satria A.
+    journal: Nucleic Acids Research
+    year: 2017
+    doi: 10.1093/nar/gkx338
