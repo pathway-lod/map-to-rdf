@@ -1,28 +1,25 @@
 {
-  "generated_at": "2026-01-09T19:32:59",
-  "outputs": {
-    "plantiSMASH": "output_ttl/plantismash.ttl",
-    "MIBIG": "output_ttl/mibig.ttl"
-  },
+  "generated_at": "2026-05-22T11:57:24",
   "plantiSMASH": {
     "source": "plantiSMASH",
-    "generated_at": "2026-01-09T19:32:58",
+    "generated_at": "2026-05-22T11:57:24",
     "species": {
       "Arabidopsis thaliana": {
         "bgcs": 65,
-        "gene_links": 938,
-        "unique_genes": 938
+        "gene_links": 1575,
+        "unique_genes": 940
       },
       "Solanum lycopersicum": {
         "bgcs": 63,
         "gene_links": 1025,
         "unique_genes": 1025
       }
-    }
+    },
+    "bridgedb_resolved": 0
   },
   "MIBIG": {
     "source": "MIBiG",
-    "generated_at": "2026-01-09T19:32:59",
+    "generated_at": "2026-05-22T11:57:25",
     "species": {
       "Arabidopsis thaliana": {
         "bgcs": 9,
@@ -30,15 +27,15 @@
         "unique_genes": 69
       }
     },
+    "bridgedb_resolved": 0,
     "untyped": {
       "bgcs": 41,
       "member_links": 403,
       "unique_members": 403
     },
     "notes": [
-      "MIBiG membership is preserved for all identifiers.",
-      "Species annotations are only added when identifiers match reliable patterns (e.g., TAIR locus IDs).",
-      "XP_/NP_/etc. are NOT assumed to be tomato (or any species); they are kept as pmw:MemberIdentifier nodes."
+      "Species only assigned when identifiers match reliable patterns.",
+      "XP_/NP_/KNA_ etc. kept as pmw:MemberIdentifier (no species claim)."
     ]
   }
 }

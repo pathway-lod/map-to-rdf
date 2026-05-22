@@ -4,8 +4,12 @@
 /.Rproj.user
 plantismash.json
 .Rhistory 
-# input and output files for the mapping
+# input files (large pathway TTLs downloaded from Zenodo — not committed)
 input_ttl/*
-output_ttl/*
+
+# output TTL files are committed so they are archived with each GitHub release
+# (files are small: plantismash.ttl ~650KB, mibig.ttl ~112KB)
+# Exception: do NOT commit large intermediate files
+output_ttl/*.json
 # Claude Code guidance file
 CLAUDE.md
