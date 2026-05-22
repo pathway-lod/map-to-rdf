@@ -95,7 +95,10 @@ RE_SL_LOC              = re.compile(r"^LOC(?P<geneid>\d+)$")
 RE_SL_LOC_UNMATCHING   = re.compile(r"^LOC\d+_\d+$")
 RE_TOMATO_SOLYC        = re.compile(r"^Solyc\d{2}g\d{6}(\.\d+)+$", re.IGNORECASE)
 
-# Identifier namespaces — tair.locus is canonical per README
+# Identifier namespaces
+# tair.name is used by the WikiPathways/PlantMetWiki pathway RDF (from GPML Xref
+# dataSource="TAIR gene name"), so we must match it here for direct SPARQL joins.
+# tair.locus is kept as foaf:page for discoverability.
 TAIR_LOCUS    = Namespace("https://identifiers.org/tair.locus/")
 TAIR_NAME     = Namespace("https://identifiers.org/tair.name/")
 NCBIGENE      = Namespace("https://identifiers.org/ncbigene:")
@@ -180,15 +183,20 @@ def species_from_plantismash_cluster_id(cluster_id: str) -> tuple[str, str] | No
 
 
 def mint_arabidopsis_gene_iri(gene_id: str) -> URIRef:
-    """Mint a stable TAIR locus IRI (strip isoform suffix, use locus only)."""
+    """Mint a tair.name IRI to match the WikiPathways/PlantMetWiki pathway RDF.
+
+    The pathway RDF uses identifiers.org/tair.name/ (from GPML Xref dataSource
+    'TAIR gene name'). Using the same namespace enables direct SPARQL joins.
+    tair.locus is kept as foaf:page for cross-reference discoverability.
+    """
     core = gene_id.split(".")[0].upper()
-    return URIRef(TAIR_LOCUS[core])
+    return URIRef(TAIR_NAME[core])
 
 
 def add_gene_pages_arabidopsis(g: Graph, gene: URIRef, gene_id: str) -> None:
     core = gene_id.split(".")[0].upper()
     g.add((gene, FOAF.page, URIRef(TAIR_SEARCH + core)))
-    g.add((gene, FOAF.page, URIRef(TAIR_NAME[core])))
+    g.add((gene, FOAF.page, URIRef(TAIR_LOCUS[core])))
 
 
 def mint_tomato_gene_iri_from_plantismash(
