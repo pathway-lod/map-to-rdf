@@ -68,6 +68,7 @@ DATASETS = """\
                     <http://purl.org/dc/terms/> ;
     foaf:homepage <https://plantmetwiki.bioinformatics.nl/> ;
     foaf:page <https://mibig.secondarymetabolites.org/> ;
+    foaf:page <https://doi.org/10.5281/zenodo.20345133> ;
     void:triples {mibig_triples} ;
     dcat:distribution <http://rdf-plantmetwiki.bioinformatics.nl/dataset/bgc/mibig-4.0/distribution/mibig.ttl> .
 
@@ -94,6 +95,7 @@ DATASETS = """\
                     <http://purl.org/dc/terms/> ;
     foaf:homepage <https://plantmetwiki.bioinformatics.nl/> ;
     foaf:page <https://plantismash.bioinformatics.nl/> ;
+    foaf:page <https://doi.org/10.5281/zenodo.20345133> ;
     void:triples {plantismash_triples} ;
     dcat:distribution <http://rdf-plantmetwiki.bioinformatics.nl/dataset/bgc/plantismash-v2/distribution/plantismash.ttl> .
 
