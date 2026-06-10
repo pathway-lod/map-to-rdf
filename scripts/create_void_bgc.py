@@ -79,7 +79,7 @@ DATASETS = """\
 # ── plantiSMASH dataset ─────────────────────────────────────────────────
 <http://rdf-plantmetwiki.bioinformatics.nl/dataset/bgc/plantismash-v2> a void:Dataset ;
     dcterms:title "PlantMetWiki BGC crosslinks — plantiSMASH v2"@en ;
-    dcterms:description "RDF representation of predicted biosynthetic gene cluster (BGC) membership data from the plantiSMASH pre-calculated database (v2). Clusters are typed as pmw:BiosyntheticGeneCluster and linked to their constituent genes via RO:0000051 (has_part). For Arabidopsis thaliana, gene identifiers use identifiers.org/tair.name/ IRIs enabling direct SPARQL joins with the PlantMetWiki pathway graph. For Solanum lycopersicum, gene symbols (identifiers.org/ensembl.plant:) are used; a BridgeDB-assisted crosswalk is required to link these to PlantCyc pathway genes."@en ;
+    dcterms:description "RDF representation of predicted biosynthetic gene cluster (BGC) membership data from the plantiSMASH pre-calculated database (v2), currently scoped to Arabidopsis thaliana clusters. Clusters are typed as pmw:BiosyntheticGeneCluster and linked to their constituent genes via RO:0000051 (has_part). Gene identifiers use identifiers.org/tair.name/ IRIs enabling direct SPARQL joins with the PlantMetWiki pathway graph."@en ;
     dcterms:hasVersion "plantismash-v2" ;
     pav:version "plantismash-v2" ;
     pav:createdOn "{today}"^^xsd:date ;
