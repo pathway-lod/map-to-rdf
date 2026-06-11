@@ -42,10 +42,15 @@ Pathways are not modified at conversion time.
 
 We only assign species when identifiers are reliable like in A. thaliana.
 
-3. Known limitation: tomato annotation incompatibility
+3. Scope: Arabidopsis thaliana only (for now)
 
-Direct BGC↔pathway linking currently works only for *Arabidopsis thaliana*.
-For *Solanum lycopersicum* (tomato), the two data sources use gene models from
+`output_ttl/plantismash.ttl` currently contains **only Arabidopsis thaliana**
+clusters from the plantiSMASH pre-calculated database (65 BGCs). Clusters for
+other species — including the 63 *Solanum lycopersicum* (tomato) clusters
+predicted by plantiSMASH — are excluded from this output.
+
+This is because direct BGC↔pathway linking currently works only for
+*Arabidopsis thaliana*. For tomato, the two data sources use gene models from
 **different genome annotations**:
 
 | Source | Genome annotation | Gene ID format |
@@ -61,9 +66,11 @@ BridgeDb maintains a partial crosswalk between ITAG (Solyc) and NCBI Gene
 boundaries between annotation versions.
 
 As a result, tomato BGC clusters from plantiSMASH (1,025 gene links across
-63 clusters in the current dataset) cannot be directly joined to PlantCyc
-pathway genes without a BridgeDb-assisted identifier resolution step.
-This is a known data limitation, not a pipeline bug.
+63 clusters) cannot be directly joined to PlantCyc pathway genes without a
+BridgeDb-assisted identifier resolution step. This is a known data
+limitation, not a pipeline bug. The tomato conversion code and output are
+preserved on the `plantismash-solanum-lycopersicum` branch for future
+discussion and implementation.
 
 4. Untyped MiBIG clusters are preserved (by design)
 

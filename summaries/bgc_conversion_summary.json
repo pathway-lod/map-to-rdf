@@ -1,25 +1,20 @@
 {
-  "generated_at": "2026-05-22T11:57:24",
+  "generated_at": "2026-06-11T10:51:23",
   "plantiSMASH": {
     "source": "plantiSMASH",
-    "generated_at": "2026-05-22T11:57:24",
+    "generated_at": "2026-06-11T10:51:23",
     "species": {
       "Arabidopsis thaliana": {
         "bgcs": 65,
         "gene_links": 1575,
         "unique_genes": 940
-      },
-      "Solanum lycopersicum": {
-        "bgcs": 63,
-        "gene_links": 1025,
-        "unique_genes": 1025
       }
     },
     "bridgedb_resolved": 0
   },
   "MIBIG": {
     "source": "MIBiG",
-    "generated_at": "2026-05-22T11:57:25",
+    "generated_at": "2026-06-11T10:51:24",
     "species": {
       "Arabidopsis thaliana": {
         "bgcs": 9,
