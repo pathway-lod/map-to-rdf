@@ -32,9 +32,9 @@ PREFIXES = """\
 
 PUBLISHER = """\
 # ── Publisher ────────────────────────────────────────────────────────────
-<http://rdf-plantmetwiki.bioinformatics.nl/organization/wur-bioinformatics> a foaf:Organization ;
-    foaf:name "Wageningen University & Research, Bioinformatics Group"@en ;
-    foaf:homepage <https://www.bioinformatics.nl/> .
+<http://rdf-plantmetwiki.bioinformatics.nl/organization/wur-plant-sciences> a foaf:Organization ;
+    foaf:name "Wageningen University & Research, Department of Plant Sciences"@en ;
+    foaf:homepage <https://www.wur.nl/> .
 """
 
 # -----------------------------------------------------------------------
@@ -68,7 +68,7 @@ DATASETS = """\
     pav:version "mibig-4.0" ;
     pav:createdOn "{today}"^^xsd:date ;
     dcterms:modified "{today}"^^xsd:date ;
-    dcterms:publisher <http://rdf-plantmetwiki.bioinformatics.nl/organization/wur-bioinformatics> ;
+    dcterms:publisher <http://rdf-plantmetwiki.bioinformatics.nl/organization/wur-plant-sciences> ;
     pav:createdWith <https://github.com/pathway-lod/map-to-rdf> ;
     pav:derivedFrom <https://github.com/mite-standard/mite_data> ;
     dcterms:source <https://github.com/plantismash/plantismash/blob/master/antismash/generic_modules/knownclusterblast/knownclusters.txt> ;
@@ -97,7 +97,7 @@ DATASETS = """\
     pav:version "plantismash-v2" ;
     pav:createdOn "{today}"^^xsd:date ;
     dcterms:modified "{today}"^^xsd:date ;
-    dcterms:publisher <http://rdf-plantmetwiki.bioinformatics.nl/organization/wur-bioinformatics> ;
+    dcterms:publisher <http://rdf-plantmetwiki.bioinformatics.nl/organization/wur-plant-sciences> ;
     pav:createdWith <https://github.com/pathway-lod/map-to-rdf> ;
     pav:derivedFrom <https://github.com/plantismash/plantismash-database> ;
     dcterms:source <https://raw.githubusercontent.com/plantismash/plantismash-database/main/data/plantismash_v2_clusters_minimal.json> ;
