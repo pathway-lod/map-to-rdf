@@ -15,7 +15,8 @@ mibig:BGC0000669 a pmw:BiosyntheticGeneCluster ;
         <https://identifiers.org/tair.name/AT5G42600> ;
     dcterms:source "MIBIG" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0000669> .
 
 mibig:BGC0000670 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0000670" ;
@@ -27,7 +28,8 @@ mibig:BGC0000670 a pmw:BiosyntheticGeneCluster ;
         <https://identifiers.org/tair.name/AT5G48010> ;
     dcterms:source "MIBIG" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0000670> .
 
 mibig:BGC0000671 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0000671" ;
@@ -38,7 +40,8 @@ mibig:BGC0000671 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/BAF14089.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/BAF14090.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/BAF14091.1> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0000671> .
 
 mibig:BGC0000672 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0000672" ;
@@ -53,7 +56,8 @@ mibig:BGC0000672 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/BAF09106.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/BAF09107.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/BAH91759.1> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0000672> .
 
 mibig:BGC0000798 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0000798" ;
@@ -62,7 +66,8 @@ mibig:BGC0000798 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/SORBIDRAFT_01g001200>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/SORBIDRAFT_01g001210>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/SORBIDRAFT_01g001220> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0000798> .
 
 mibig:BGC0000810 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0000810" ;
@@ -83,7 +88,8 @@ mibig:BGC0000810 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/ZEAMMB73_863714_rename1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/ZEAMMB73_863714_rename2>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/ZEAMMB73_863714_rename3> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0000810> .
 
 mibig:BGC0001313 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001313" ;
@@ -119,7 +125,8 @@ mibig:BGC0001313 a pmw:BiosyntheticGeneCluster ;
         <https://identifiers.org/tair.name/AT4G15415> ;
     dcterms:source "MIBIG" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0001313> .
 
 mibig:BGC0001314 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001314" ;
@@ -144,7 +151,8 @@ mibig:BGC0001314 a pmw:BiosyntheticGeneCluster ;
         <https://identifiers.org/tair.name/AT5G36200> ;
     dcterms:source "MIBIG" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0001314> .
 
 mibig:BGC0001315 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001315" ;
@@ -154,7 +162,8 @@ mibig:BGC0001315 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/Csa_6G088680>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/Csa_6G088700>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/Csa_6G088710> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0001315> .
 
 mibig:BGC0001316 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001316" ;
@@ -182,7 +191,8 @@ mibig:BGC0001316 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/chr3.CM0241.890.r2.m>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/chr3.CM0241.930.r2.a>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/chr3.CM0241.940.r2.a> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0001316> .
 
 mibig:BGC0001317 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001317" ;
@@ -204,7 +214,8 @@ mibig:BGC0001317 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/chr3.CM0292.50.r2.m>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/chr3.CM0292.80.r2.m>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/chr3.CM0292.90.r2.m> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0001317> .
 
 mibig:BGC0001318 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001318" ;
@@ -224,7 +235,8 @@ mibig:BGC0001318 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/Manes.12_1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/Manes.12_2>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/Manes.12_3> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0001318> .
 
 mibig:BGC0001321 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001321" ;
@@ -242,7 +254,8 @@ mibig:BGC0001321 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/pseudo70960_82927>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/pseudo85477_86858>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/pseudo90413_92043> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0001321> .
 
 mibig:BGC0001322 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001322" ;
@@ -261,7 +274,8 @@ mibig:BGC0001322 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/pseudo113171_113938>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/pseudo49437_51033>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/pseudo94131_96140> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0001322> .
 
 mibig:BGC0001324 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001324" ;
@@ -279,7 +293,8 @@ mibig:BGC0001324 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/pseudo41887__42385>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/pseudo83763_86338>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/pseudo99527_100291> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0001324> .
 
 mibig:BGC0001325 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001325" ;
@@ -293,7 +308,8 @@ mibig:BGC0001325 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/PSMT1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/PSMT3>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/PSSDR1> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0001325> .
 
 mibig:BGC0001756 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001756" ;
@@ -306,7 +322,8 @@ mibig:BGC0001756 a pmw:BiosyntheticGeneCluster ;
         <https://identifiers.org/tair.name/AT3G14550> ;
     dcterms:source "MIBIG" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0001756> .
 
 mibig:BGC0001799 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001799" ;
@@ -322,7 +339,8 @@ mibig:BGC0001799 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/SalSyn2>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/THS1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/THS2> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0001799> .
 
 mibig:BGC0001997 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001997" ;
@@ -340,7 +358,8 @@ mibig:BGC0001997 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/g116.t1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/g117.t1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/g118.t1> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0001997> .
 
 mibig:BGC0002390 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002390" ;
@@ -363,13 +382,15 @@ mibig:BGC0002390 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_035823697.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_035823698.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_035823699.1> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002390> .
 
 mibig:BGC0002391 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002391" ;
     obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/NP_001130688.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_008665446.1> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002391> .
 
 mibig:BGC0002392 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002392" ;
@@ -389,7 +410,8 @@ mibig:BGC0002392 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_070219600>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_070219800>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_070220000> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002392> .
 
 mibig:BGC0002393 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002393" ;
@@ -410,7 +432,8 @@ mibig:BGC0002393 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/RCOM_1574400>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/RCOM_1574410>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/RCOM_1574420> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002393> .
 
 mibig:BGC0002394 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002394" ;
@@ -420,7 +443,8 @@ mibig:BGC0002394 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/KI387_028801>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/KI387_028802>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/KI387_028803> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002394> .
 
 mibig:BGC0002395 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002395" ;
@@ -438,7 +462,8 @@ mibig:BGC0002395 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_044969123.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_044969124.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_044969126.1> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002395> .
 
 mibig:BGC0002397 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002397" ;
@@ -446,7 +471,8 @@ mibig:BGC0002397 a pmw:BiosyntheticGeneCluster ;
         <https://identifiers.org/tair.name/AT3G32040> ;
     dcterms:source "MIBIG" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002397> .
 
 mibig:BGC0002398 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002398" ;
@@ -455,14 +481,16 @@ mibig:BGC0002398 a pmw:BiosyntheticGeneCluster ;
         <https://identifiers.org/tair.name/AT3G29430> ;
     dcterms:source "MIBIG" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002398> .
 
 mibig:BGC0002400 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002400" ;
     obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_013584735.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_013584807.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_013637868.1> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002400> .
 
 mibig:BGC0002401 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002401" ;
@@ -477,7 +505,8 @@ mibig:BGC0002401 a pmw:BiosyntheticGeneCluster ;
         <https://identifiers.org/tair.name/AT3G52490> ;
     dcterms:source "MIBIG" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002401> .
 
 mibig:BGC0002402 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002402" ;
@@ -486,7 +515,8 @@ mibig:BGC0002402 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/SOVF_107640>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/SOVF_107650>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/SOVF_107660> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002402> .
 
 mibig:BGC0002403 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002403" ;
@@ -494,7 +524,8 @@ mibig:BGC0002403 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/Hv_66C06_HlyIII>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/MLOC_13397>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/MLOC_59804> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002403> .
 
 mibig:BGC0002404 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002404" ;
@@ -502,7 +533,8 @@ mibig:BGC0002404 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_004252845.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_004252862.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_019067121.1> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002404> .
 
 mibig:BGC0002405 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002405" ;
@@ -510,7 +542,8 @@ mibig:BGC0002405 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_004243626.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_004243893.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_019070278.1> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002405> .
 
 mibig:BGC0002406 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002406" ;
@@ -534,14 +567,16 @@ mibig:BGC0002406 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_100380300>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_100380800>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_100381200> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002406> .
 
 mibig:BGC0002622 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002622" ;
     obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_090543400>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_090543900>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_090544000> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002622> .
 
 mibig:BGC0002721 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002721" ;
@@ -549,7 +584,8 @@ mibig:BGC0002721 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_044984006.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_044984106.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_044984175.1> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002721> .
 
 mibig:BGC0002722 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002722" ;
@@ -575,13 +611,15 @@ mibig:BGC0002722 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_015166195.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_015166201.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_015166228.1> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002722> .
 
 mibig:BGC0002723 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002723" ;
     obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/NP_001292945.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_012066853.1> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002723> .
 
 mibig:BGC0002724 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002724" ;
@@ -589,12 +627,14 @@ mibig:BGC0002724 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_037497843.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_037497844.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_037497855.1> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002724> .
 
 mibig:BGC0002865 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002865" ;
     obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AAS87170.1> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002865> .
 
 mibig:BGC0002906 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002906" ;
@@ -622,7 +662,8 @@ mibig:BGC0002906 a pmw:BiosyntheticGeneCluster ;
         <https://identifiers.org/tair.name/AT5G25370> ;
     dcterms:source "MIBIG" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002906> .
 
 mibig:BGCMANUAL1 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGCMANUAL1" ;
@@ -638,7 +679,8 @@ mibig:BGCMANUAL1 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AS01G000270>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AS01G000280>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AS01G000300> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGCMANUAL1> .
 
 mibig:BGCMANUAL2 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGCMANUAL2" ;
@@ -667,7 +709,8 @@ mibig:BGCMANUAL2 a pmw:BiosyntheticGeneCluster ;
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/O6P43_02_1043>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/O6P43_02_1044>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/O6P43_02_1045> ;
-    dcterms:source "MIBIG" .
+    dcterms:source "MIBIG" ;
+    rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGCMANUAL2> .
 
 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AAS87170.1> a pmw:MemberIdentifier ;
     rdfs:label "AAS87170.1" .

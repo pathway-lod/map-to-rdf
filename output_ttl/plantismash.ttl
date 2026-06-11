@@ -21,7 +21,8 @@
         <https://identifiers.org/tair.name/AT1G02060> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-10> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-10" ;
@@ -59,7 +60,8 @@
         <https://identifiers.org/tair.name/AT1G60560> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-11> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-11" ;
@@ -72,7 +74,8 @@
         <https://identifiers.org/tair.name/AT1G62840> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-12> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-12" ;
@@ -99,7 +102,8 @@
         <https://identifiers.org/tair.name/AT1G63010> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-13> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-13" ;
@@ -115,7 +119,8 @@
         <https://identifiers.org/tair.name/AT1G64980> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-14> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-14" ;
@@ -130,7 +135,8 @@
         <https://identifiers.org/tair.name/AT1G65900> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-15> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-15" ;
@@ -181,7 +187,8 @@
         <https://identifiers.org/tair.name/AT1G70560> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-16> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-16" ;
@@ -204,7 +211,8 @@
         <https://identifiers.org/tair.name/AT1G73390> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-17> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-17" ;
@@ -227,7 +235,8 @@
         <https://identifiers.org/tair.name/AT1G78580> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-18> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-18" ;
@@ -255,7 +264,8 @@
         <https://identifiers.org/tair.name/AT2G12480> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-19> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-19" ;
@@ -287,7 +297,8 @@
         <https://identifiers.org/tair.name/AT2G23110> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-2> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-2" ;
@@ -305,7 +316,8 @@
         <https://identifiers.org/tair.name/AT1G22460> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-20> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-20" ;
@@ -322,7 +334,8 @@
         <https://identifiers.org/tair.name/AT2G23290> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-21> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-21" ;
@@ -335,7 +348,8 @@
         <https://identifiers.org/tair.name/AT2G24220> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-22> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-22" ;
@@ -359,7 +373,8 @@
         <https://identifiers.org/tair.name/AT2G26330> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-23> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-23" ;
@@ -380,7 +395,8 @@
         <https://identifiers.org/tair.name/AT2G29400> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-24> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-24" ;
@@ -395,7 +411,8 @@
         <https://identifiers.org/tair.name/AT2G29760> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-25> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-25" ;
@@ -411,7 +428,8 @@
         <https://identifiers.org/tair.name/AT2G31810> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-26> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-26" ;
@@ -429,7 +447,8 @@
         <https://identifiers.org/tair.name/AT2G34870> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-27> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-27" ;
@@ -449,7 +468,8 @@
         <https://identifiers.org/tair.name/AT2G40300> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-28> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-28" ;
@@ -466,7 +486,8 @@
         <https://identifiers.org/tair.name/AT2G44530> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-29> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-29" ;
@@ -485,7 +506,8 @@
         <https://identifiers.org/tair.name/AT3G10290> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-3> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-3" ;
@@ -535,7 +557,8 @@
         <https://identifiers.org/tair.name/AT1G23935> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-30> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-30" ;
@@ -558,7 +581,8 @@
         <https://identifiers.org/tair.name/AT3G10460> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-31> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-31" ;
@@ -584,7 +608,8 @@
         <https://identifiers.org/tair.name/AT3G13740> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-32> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-32" ;
@@ -599,7 +624,8 @@
         <https://identifiers.org/tair.name/AT3G14560> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-33> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-33" ;
@@ -614,7 +640,8 @@
         <https://identifiers.org/tair.name/AT3G23860> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-34> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-34" ;
@@ -629,7 +656,8 @@
         <https://identifiers.org/tair.name/AT3G29260> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-35> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-35" ;
@@ -638,7 +666,8 @@
         <https://identifiers.org/tair.name/AT3G29430> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-36> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-36" ;
@@ -654,7 +683,8 @@
         <https://identifiers.org/tair.name/AT3G29639> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-37> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-37" ;
@@ -665,7 +695,8 @@
         <https://identifiers.org/tair.name/AT3G32090> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-38> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-38" ;
@@ -677,7 +708,8 @@
         <https://identifiers.org/tair.name/AT3G45160> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-39> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-39" ;
@@ -691,7 +723,8 @@
         <https://identifiers.org/tair.name/AT3G53180> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-4> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-4" ;
@@ -711,7 +744,8 @@
         <https://identifiers.org/tair.name/AT1G24120> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-40> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-40" ;
@@ -726,7 +760,8 @@
         <https://identifiers.org/tair.name/AT3G53310> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-41> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-41" ;
@@ -747,7 +782,8 @@
         <https://identifiers.org/tair.name/AT3G56100> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-42> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-42" ;
@@ -760,7 +796,8 @@
         <https://identifiers.org/tair.name/AT3G57060> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-43> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-43" ;
@@ -778,7 +815,8 @@
         <https://identifiers.org/tair.name/AT4G12340> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-44> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-44" ;
@@ -793,7 +831,8 @@
         <https://identifiers.org/tair.name/AT4G13420> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-45> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-45" ;
@@ -806,7 +845,8 @@
         <https://identifiers.org/tair.name/AT4G14100> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-46> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-46" ;
@@ -838,7 +878,8 @@
         <https://identifiers.org/tair.name/AT4G15415> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-47> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-47" ;
@@ -859,7 +900,8 @@
         <https://identifiers.org/tair.name/AT4G16810> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-48> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-48" ;
@@ -873,7 +915,8 @@
         <https://identifiers.org/tair.name/AT4G20250> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-49> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-49" ;
@@ -898,7 +941,8 @@
         <https://identifiers.org/tair.name/AT4G20920> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-5> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-5" ;
@@ -921,7 +965,8 @@
         <https://identifiers.org/tair.name/AT1G24485> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-50> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-50" ;
@@ -940,7 +985,8 @@
         <https://identifiers.org/tair.name/AT4G23700> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-51> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-51" ;
@@ -963,7 +1009,8 @@
         <https://identifiers.org/tair.name/AT5G17060> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-52> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-52" ;
@@ -977,7 +1024,8 @@
         <https://identifiers.org/tair.name/AT5G23980> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-53> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-53" ;
@@ -1024,7 +1072,8 @@
         <https://identifiers.org/tair.name/AT5G25830> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-54> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-54" ;
@@ -1043,7 +1092,8 @@
         <https://identifiers.org/tair.name/AT5G36220> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-55> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-55" ;
@@ -1072,7 +1122,8 @@
         <https://identifiers.org/tair.name/AT5G38140> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-56> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-56" ;
@@ -1088,7 +1139,8 @@
         <https://identifiers.org/tair.name/AT5G42270> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-57> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-57" ;
@@ -1109,7 +1161,8 @@
         <https://identifiers.org/tair.name/AT5G42610> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-58> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-58" ;
@@ -1131,7 +1184,8 @@
         <https://identifiers.org/tair.name/AT5G44500> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-59> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-59" ;
@@ -1144,7 +1198,8 @@
         <https://identifiers.org/tair.name/AT5G44660> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-6> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-6" ;
@@ -1156,7 +1211,8 @@
         <https://identifiers.org/tair.name/AT1G30540> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-60> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-60" ;
@@ -1172,7 +1228,8 @@
         <https://identifiers.org/tair.name/AT5G48030> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-61> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-61" ;
@@ -1186,7 +1243,8 @@
         <https://identifiers.org/tair.name/AT5G49070> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-62> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-62" ;
@@ -1199,7 +1257,8 @@
         <https://identifiers.org/tair.name/AT5G54020> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-63> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-63" ;
@@ -1215,7 +1274,8 @@
         <https://identifiers.org/tair.name/AT5G57320> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-64> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-64" ;
@@ -1229,7 +1289,8 @@
         <https://identifiers.org/tair.name/AT5G58787> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-65> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-65" ;
@@ -1245,7 +1306,8 @@
         <https://identifiers.org/tair.name/AT5G63625> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-7> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-7" ;
@@ -1262,7 +1324,8 @@
         <https://identifiers.org/tair.name/AT1G30780> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-8> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-8" ;
@@ -1320,7 +1383,8 @@
         <https://identifiers.org/tair.name/AT1G49580> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-9> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-9" ;
@@ -1334,7 +1398,8 @@
         <https://identifiers.org/tair.name/AT1G52830> ;
     dcterms:source "plantiSMASH" ;
     wp:organism ncbi:3702 ;
-    wp:organismName "Arabidopsis thaliana" .
+    wp:organismName "Arabidopsis thaliana" ;
+    rdfs:seeAlso <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/> .
 
 <https://identifiers.org/tair.name/AT1G01960> a wp:GeneProduct ;
     wp:organism ncbi:3702 ;

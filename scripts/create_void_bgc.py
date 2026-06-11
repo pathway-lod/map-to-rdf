@@ -27,6 +27,17 @@ PREFIXES = """\
 """
 
 # -----------------------------------------------------------------------
+# Publisher organization (shared across all PlantMetWiki VoID files)
+# -----------------------------------------------------------------------
+
+PUBLISHER = """\
+# ── Publisher ────────────────────────────────────────────────────────────
+<http://rdf-plantmetwiki.bioinformatics.nl/organization/wur-bioinformatics> a foaf:Organization ;
+    foaf:name "Wageningen University & Research, Bioinformatics Group"@en ;
+    foaf:homepage <https://www.bioinformatics.nl/> .
+"""
+
+# -----------------------------------------------------------------------
 # Licence documents
 # -----------------------------------------------------------------------
 
@@ -56,6 +67,8 @@ DATASETS = """\
     dcterms:hasVersion "mibig-4.0" ;
     pav:version "mibig-4.0" ;
     pav:createdOn "{today}"^^xsd:date ;
+    dcterms:modified "{today}"^^xsd:date ;
+    dcterms:publisher <http://rdf-plantmetwiki.bioinformatics.nl/organization/wur-bioinformatics> ;
     pav:createdWith <https://github.com/pathway-lod/map-to-rdf> ;
     pav:derivedFrom <https://github.com/mite-standard/mite_data> ;
     dcterms:source <https://github.com/plantismash/plantismash/blob/master/antismash/generic_modules/knownclusterblast/knownclusters.txt> ;
@@ -83,6 +96,8 @@ DATASETS = """\
     dcterms:hasVersion "plantismash-v2" ;
     pav:version "plantismash-v2" ;
     pav:createdOn "{today}"^^xsd:date ;
+    dcterms:modified "{today}"^^xsd:date ;
+    dcterms:publisher <http://rdf-plantmetwiki.bioinformatics.nl/organization/wur-bioinformatics> ;
     pav:createdWith <https://github.com/pathway-lod/map-to-rdf> ;
     pav:derivedFrom <https://github.com/plantismash/plantismash-database> ;
     dcterms:source <https://raw.githubusercontent.com/plantismash/plantismash-database/main/data/plantismash_v2_clusters_minimal.json> ;
@@ -170,6 +185,7 @@ def main() -> int:
     # Render
     content = (
         PREFIXES + "\n"
+        + PUBLISHER + "\n"
         + LICENSES + "\n"
         + DATASETS.format(
             today=today,

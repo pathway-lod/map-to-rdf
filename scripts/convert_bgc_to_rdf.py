@@ -263,6 +263,10 @@ def convert_plantismash(
 
         cluster = URIRef(PLANTISMASH[cluster_id])
         add_common_cluster_metadata(g, cluster, "plantiSMASH", species_label, taxon_id)
+        # cluster_id is "<genome-dir>/#cluster-N"; seeAlso links to the genome's
+        # antiSMASH report page (the part before the fragment).
+        report_path = cluster_id.split("#")[0]
+        g.add((cluster, RDFS.seeAlso, URIRef(f"https://plantismash.bioinformatics.nl/precalc/v2/{report_path}")))
         summary["species"][species_label]["bgcs"] += 1
 
         for raw_gene_id in gene_list:
@@ -339,6 +343,7 @@ def convert_mibig(
     for bgc_id, member_list in mibig_json.items():
         cluster = URIRef(f"{MIBIG_BIOREGISTRY_PREFIX}{bgc_id}")
         add_common_cluster_metadata(g, cluster, "MIBIG", None, None)
+        g.add((cluster, RDFS.seeAlso, URIRef(f"https://mibig.secondarymetabolites.org/repository/{bgc_id}")))
         typed_this_cluster = False
 
         for raw_member_id in member_list:
