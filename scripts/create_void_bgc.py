@@ -27,17 +27,6 @@ PREFIXES = """\
 """
 
 # -----------------------------------------------------------------------
-# Publisher organization (shared across all PlantMetWiki VoID files)
-# -----------------------------------------------------------------------
-
-PUBLISHER = """\
-# ── Publisher ────────────────────────────────────────────────────────────
-<http://rdf-plantmetwiki.bioinformatics.nl/organization/wur-plant-sciences> a foaf:Organization ;
-    foaf:name "Wageningen University & Research, Department of Plant Sciences"@en ;
-    foaf:homepage <https://www.wur.nl/> .
-"""
-
-# -----------------------------------------------------------------------
 # Licence documents
 # -----------------------------------------------------------------------
 
@@ -67,8 +56,6 @@ DATASETS = """\
     dcterms:hasVersion "mibig-4.0" ;
     pav:version "mibig-4.0" ;
     pav:createdOn "{today}"^^xsd:date ;
-    dcterms:modified "{today}"^^xsd:date ;
-    dcterms:publisher <http://rdf-plantmetwiki.bioinformatics.nl/organization/wur-plant-sciences> ;
     pav:createdWith <https://github.com/pathway-lod/map-to-rdf> ;
     pav:derivedFrom <https://github.com/mite-standard/mite_data> ;
     dcterms:source <https://github.com/plantismash/plantismash/blob/master/antismash/generic_modules/knownclusterblast/knownclusters.txt> ;
@@ -92,12 +79,10 @@ DATASETS = """\
 # ── plantiSMASH dataset ─────────────────────────────────────────────────
 <http://rdf-plantmetwiki.bioinformatics.nl/dataset/bgc/plantismash-v2> a void:Dataset ;
     dcterms:title "PlantMetWiki BGC crosslinks — plantiSMASH v2"@en ;
-    dcterms:description "RDF representation of predicted biosynthetic gene cluster (BGC) membership data from the plantiSMASH pre-calculated database (v2), currently scoped to Arabidopsis thaliana clusters. Clusters are typed as pmw:BiosyntheticGeneCluster and linked to their constituent genes via RO:0000051 (has_part). Gene identifiers use identifiers.org/tair.name/ IRIs enabling direct SPARQL joins with the PlantMetWiki pathway graph."@en ;
+    dcterms:description "RDF representation of predicted biosynthetic gene cluster (BGC) membership data from the plantiSMASH pre-calculated database (v2). Clusters are typed as pmw:BiosyntheticGeneCluster and linked to their constituent genes via RO:0000051 (has_part). For Arabidopsis thaliana, gene identifiers use identifiers.org/tair.name/ IRIs enabling direct SPARQL joins with the PlantMetWiki pathway graph. For Solanum lycopersicum, gene symbols (identifiers.org/ensembl.plant:) are used; a BridgeDB-assisted crosswalk is required to link these to PlantCyc pathway genes."@en ;
     dcterms:hasVersion "plantismash-v2" ;
     pav:version "plantismash-v2" ;
     pav:createdOn "{today}"^^xsd:date ;
-    dcterms:modified "{today}"^^xsd:date ;
-    dcterms:publisher <http://rdf-plantmetwiki.bioinformatics.nl/organization/wur-plant-sciences> ;
     pav:createdWith <https://github.com/pathway-lod/map-to-rdf> ;
     pav:derivedFrom <https://github.com/plantismash/plantismash-database> ;
     dcterms:source <https://raw.githubusercontent.com/plantismash/plantismash-database/main/data/plantismash_v2_clusters_minimal.json> ;
@@ -185,7 +170,6 @@ def main() -> int:
     # Render
     content = (
         PREFIXES + "\n"
-        + PUBLISHER + "\n"
         + LICENSES + "\n"
         + DATASETS.format(
             today=today,

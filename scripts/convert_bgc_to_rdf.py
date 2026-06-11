@@ -78,6 +78,7 @@ PMW_MEMBER_BASE = "http://rdf-plantmetwiki.bioinformatics.nl/id/member/"
 # ============================================================
 
 RE_AT_CLUSTER = re.compile(r"Arabidopsis_thaliana")
+RE_SL_CLUSTER = re.compile(r"Solanum_lycopersicum")
 RE_CROSS      = re.compile(r"_x_")
 
 # Standard TAIR locus ID: AT{1-5,M,C}G{5 digits}, optional .N isoform
@@ -89,8 +90,10 @@ RE_AT_PLANTISMASH_ISOFORM = re.compile(
     r"^(?P<prefix>AT[1-5MC]G)(?P<digits>\d{4})_\d+$", re.IGNORECASE
 )
 
-# MIBiG tomato pattern (Solyc gene model)
-RE_TOMATO_SOLYC = re.compile(r"^Solyc\d{2}g\d{6}(\.\d+)+$", re.IGNORECASE)
+# Tomato patterns
+RE_SL_LOC              = re.compile(r"^LOC(?P<geneid>\d+)$")
+RE_SL_LOC_UNMATCHING   = re.compile(r"^LOC\d+_\d+$")
+RE_TOMATO_SOLYC        = re.compile(r"^Solyc\d{2}g\d{6}(\.\d+)+$", re.IGNORECASE)
 
 # Identifier namespaces
 # tair.name is used by the WikiPathways/PlantMetWiki pathway RDF (from GPML Xref
@@ -98,6 +101,7 @@ RE_TOMATO_SOLYC = re.compile(r"^Solyc\d{2}g\d{6}(\.\d+)+$", re.IGNORECASE)
 # tair.locus is kept as foaf:page for discoverability.
 TAIR_LOCUS    = Namespace("https://identifiers.org/tair.locus/")
 TAIR_NAME     = Namespace("https://identifiers.org/tair.name/")
+NCBIGENE      = Namespace("https://identifiers.org/ncbigene:")
 ENSEMBL_PLANT = Namespace("http://identifiers.org/ensembl.plant:")
 
 TAIR_SEARCH          = "https://www.arabidopsis.org/results?mainType=general&category=genes&searchText="
@@ -168,18 +172,13 @@ def normalise_plantismash_at_id(gene_id: str) -> str | None:
 
 
 def species_from_plantismash_cluster_id(cluster_id: str) -> tuple[str, str] | None:
-    """Return (species_label, ncbitaxon_id) for supported species, else None.
-
-    Currently restricted to Arabidopsis thaliana: plantiSMASH gene models for
-    Solanum lycopersicum use a different genome annotation (NCBI RefSeq) than
-    the PlantCyc pathway graph (Phytozome/ITAG), so they cannot be joined to
-    pathway genes without a BridgeDb-assisted crosswalk (see README). That
-    work is preserved on the `plantismash-solanum-lycopersicum` branch.
-    """
+    """Return (species_label, ncbitaxon_id) for supported species, else None."""
     if RE_CROSS.search(cluster_id):
         return None
     if RE_AT_CLUSTER.search(cluster_id):
         return ("Arabidopsis thaliana", "3702")
+    if RE_SL_CLUSTER.search(cluster_id):
+        return ("Solanum lycopersicum", "4081")
     return None
 
 
@@ -198,6 +197,23 @@ def add_gene_pages_arabidopsis(g: Graph, gene: URIRef, gene_id: str) -> None:
     core = gene_id.split(".")[0].upper()
     g.add((gene, FOAF.page, URIRef(TAIR_SEARCH + core)))
     g.add((gene, FOAF.page, URIRef(TAIR_LOCUS[core])))
+
+
+def mint_tomato_gene_iri_from_plantismash(
+    gene_id: str,
+) -> tuple[URIRef | None, URIRef | None]:
+    """Tomato: LOC{N} → NCBIGene; gene symbol → EnsemblPlant (best-effort).
+
+    Returns (gene_iri, optional_page_iri) or (None, None) to skip.
+    """
+    m = RE_SL_LOC.fullmatch(gene_id)
+    if m:
+        return (URIRef(NCBIGENE[m.group("geneid")]), None)
+    if RE_SL_LOC_UNMATCHING.search(gene_id):
+        return (None, None)
+    gene_iri = URIRef(ENSEMBL_PLANT[gene_id])
+    page     = URIRef(ENSEMBL_TOMATO_SEARCH + gene_id)
+    return (gene_iri, page)
 
 
 def mint_member_identifier_iri(member_id: str) -> URIRef:
@@ -263,10 +279,6 @@ def convert_plantismash(
 
         cluster = URIRef(PLANTISMASH[cluster_id])
         add_common_cluster_metadata(g, cluster, "plantiSMASH", species_label, taxon_id)
-        # cluster_id is "<genome-dir>/#cluster-N"; seeAlso links to the genome's
-        # antiSMASH report page (the part before the fragment).
-        report_path = cluster_id.split("#")[0]
-        g.add((cluster, RDFS.seeAlso, URIRef(f"https://plantismash.bioinformatics.nl/precalc/v2/{report_path}")))
         summary["species"][species_label]["bgcs"] += 1
 
         for raw_gene_id in gene_list:
@@ -275,33 +287,51 @@ def convert_plantismash(
                 continue
 
             # ---- Arabidopsis ----
-            resolved_id = gene_id
+            if species_label == "Arabidopsis thaliana":
+                resolved_id = gene_id
 
-            # 1. Already a valid TAIR locus ID
-            if not RE_AT_GENE.fullmatch(gene_id):
-                # 2. plantiSMASH isoform notation (AT1G2351_1 → AT1G23510)
-                fixed = normalise_plantismash_at_id(gene_id)
-                if fixed:
-                    resolved_id = fixed
-                elif use_bridgedb:
-                    # 3. Try BridgeDb as last resort
-                    tair = bridgedb_to_tair(gene_id)
-                    if tair:
-                        resolved_id = tair
-                        summary["bridgedb_resolved"] += 1
+                # 1. Already a valid TAIR locus ID
+                if not RE_AT_GENE.fullmatch(gene_id):
+                    # 2. plantiSMASH isoform notation (AT1G2351_1 → AT1G23510)
+                    fixed = normalise_plantismash_at_id(gene_id)
+                    if fixed:
+                        resolved_id = fixed
+                    elif use_bridgedb:
+                        # 3. Try BridgeDb as last resort
+                        tair = bridgedb_to_tair(gene_id)
+                        if tair:
+                            resolved_id = tair
+                            summary["bridgedb_resolved"] += 1
 
-            if RE_AT_GENE.fullmatch(resolved_id):
-                gene = mint_arabidopsis_gene_iri(resolved_id)
+                if RE_AT_GENE.fullmatch(resolved_id):
+                    gene = mint_arabidopsis_gene_iri(resolved_id)
+                    add_common_gene_metadata(g, gene, species_label, taxon_id)
+                    add_gene_pages_arabidopsis(g, gene, resolved_id)
+                    g.add((cluster, RO_HAS_PART, gene))
+                    summary["species"][species_label]["gene_links"] += 1
+                    summary["species"][species_label]["unique_genes"].add(str(gene))
+                else:
+                    member = mint_member_identifier_iri(gene_id)
+                    g.add((member, RDF.type, PMW.MemberIdentifier))
+                    g.add((member, RDFS.label, Literal(gene_id)))
+                    g.add((cluster, RO_HAS_PART, member))
+                continue
+
+            # ---- Solanum lycopersicum ----
+            if species_label == "Solanum lycopersicum":
+                gene, page = mint_tomato_gene_iri_from_plantismash(gene_id)
+                if gene is None:
+                    member = mint_member_identifier_iri(gene_id)
+                    g.add((member, RDF.type, PMW.MemberIdentifier))
+                    g.add((member, RDFS.label, Literal(gene_id)))
+                    g.add((cluster, RO_HAS_PART, member))
+                    continue
                 add_common_gene_metadata(g, gene, species_label, taxon_id)
-                add_gene_pages_arabidopsis(g, gene, resolved_id)
+                if page is not None:
+                    g.add((gene, FOAF.page, page))
                 g.add((cluster, RO_HAS_PART, gene))
                 summary["species"][species_label]["gene_links"] += 1
                 summary["species"][species_label]["unique_genes"].add(str(gene))
-            else:
-                member = mint_member_identifier_iri(gene_id)
-                g.add((member, RDF.type, PMW.MemberIdentifier))
-                g.add((member, RDFS.label, Literal(gene_id)))
-                g.add((cluster, RO_HAS_PART, member))
 
     for sp_label in list(summary["species"].keys()):
         summary["species"][sp_label]["unique_genes"] = len(
@@ -343,7 +373,6 @@ def convert_mibig(
     for bgc_id, member_list in mibig_json.items():
         cluster = URIRef(f"{MIBIG_BIOREGISTRY_PREFIX}{bgc_id}")
         add_common_cluster_metadata(g, cluster, "MIBIG", None, None)
-        g.add((cluster, RDFS.seeAlso, URIRef(f"https://mibig.secondarymetabolites.org/repository/{bgc_id}")))
         typed_this_cluster = False
 
         for raw_member_id in member_list:
