@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-10T11:42:20",
+  "generated_at": "2026-06-11T10:51:23",
   "plantiSMASH": {
     "source": "plantiSMASH",
-    "generated_at": "2026-06-10T11:42:20",
+    "generated_at": "2026-06-11T10:51:23",
     "species": {
       "Arabidopsis thaliana": {
         "bgcs": 65,
@@ -14,7 +14,7 @@
   },
   "MIBIG": {
     "source": "MIBiG",
-    "generated_at": "2026-06-10T11:42:20",
+    "generated_at": "2026-06-11T10:51:24",
     "species": {
       "Arabidopsis thaliana": {
         "bgcs": 9,
