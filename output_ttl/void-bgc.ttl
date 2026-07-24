@@ -29,15 +29,15 @@
     dcterms:description "RDF representation of curated biosynthetic gene cluster (BGC) membership data from MIBiG 4.0. Clusters are typed as pmw:BiosyntheticGeneCluster and linked to their constituent genes via RO:0000051 (has_part). Gene identifiers are normalised to identifiers.org/tair.name/ for Arabidopsis thaliana. Unknown identifiers are preserved as pmw:MemberIdentifier nodes."@en ;
     dcterms:hasVersion "mibig-4.0" ;
     pav:version "mibig-4.0" ;
-    pav:createdOn "2026-06-11"^^xsd:date ;
-    dcterms:modified "2026-06-11"^^xsd:date ;
+    pav:createdOn "2026-07-24"^^xsd:date ;
+    dcterms:modified "2026-07-24"^^xsd:date ;
     dcterms:publisher <http://rdf-plantmetwiki.bioinformatics.nl/organization/wur-plant-sciences> ;
     pav:createdWith <https://github.com/pathway-lod/map-to-rdf> ;
     pav:derivedFrom <https://github.com/mite-standard/mite_data> ;
     dcterms:source <https://github.com/plantismash/plantismash/blob/master/antismash/generic_modules/knownclusterblast/knownclusters.txt> ;
     dcterms:license <http://rdf-plantmetwiki.bioinformatics.nl/license/cc-by-4.0> ;
     dcterms:rights "MIBiG data is available under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. Please cite: Terlouw et al. 2023 (doi:10.1093/nar/gkac1049)."@en ;
-    void:sparqlEndpoint <https://sparql-plantmetwiki.bioinformatics.nl/sparql> ;
+    void:sparqlEndpoint <https://plantmetwiki.bioinformatics.nl/sparql> ;
     void:vocabulary <http://rdf-plantmetwiki.bioinformatics.nl/vocab/> ,
                     <http://vocabularies.wikipathways.org/wp#> ,
                     <http://purl.obolibrary.org/obo/RO_> ,
@@ -58,15 +58,15 @@
     dcterms:description "RDF representation of predicted biosynthetic gene cluster (BGC) membership data from the plantiSMASH pre-calculated database (v2), currently scoped to Arabidopsis thaliana clusters. Clusters are typed as pmw:BiosyntheticGeneCluster and linked to their constituent genes via RO:0000051 (has_part). Gene identifiers use identifiers.org/tair.name/ IRIs enabling direct SPARQL joins with the PlantMetWiki pathway graph."@en ;
     dcterms:hasVersion "plantismash-v2" ;
     pav:version "plantismash-v2" ;
-    pav:createdOn "2026-06-11"^^xsd:date ;
-    dcterms:modified "2026-06-11"^^xsd:date ;
+    pav:createdOn "2026-07-24"^^xsd:date ;
+    dcterms:modified "2026-07-24"^^xsd:date ;
     dcterms:publisher <http://rdf-plantmetwiki.bioinformatics.nl/organization/wur-plant-sciences> ;
     pav:createdWith <https://github.com/pathway-lod/map-to-rdf> ;
     pav:derivedFrom <https://github.com/plantismash/plantismash-database> ;
     dcterms:source <https://raw.githubusercontent.com/plantismash/plantismash-database/main/data/plantismash_v2_clusters_minimal.json> ;
     dcterms:license <http://rdf-plantmetwiki.bioinformatics.nl/license/gpl-3.0> ;
     dcterms:rights "plantiSMASH data is distributed under the GNU General Public License v3.0. Please cite: Kautsar et al. 2017 (doi:10.1093/nar/gkx338)."@en ;
-    void:sparqlEndpoint <https://sparql-plantmetwiki.bioinformatics.nl/sparql> ;
+    void:sparqlEndpoint <https://plantmetwiki.bioinformatics.nl/sparql> ;
     void:vocabulary <http://rdf-plantmetwiki.bioinformatics.nl/vocab/> ,
                     <http://vocabularies.wikipathways.org/wp#> ,
                     <http://purl.obolibrary.org/obo/RO_> ,
@@ -90,4 +90,4 @@
     void:linkPredicate  <http://purl.obolibrary.org/obo/RO_0000051> ;
     dcterms:isPartOf <http://rdf-plantmetwiki.bioinformatics.nl/dataset/bgc/plantismash-v2> ;
     void:triples 199 ;
-    pav:createdOn "2026-06-11"^^xsd:date .
+    pav:createdOn "2026-07-24"^^xsd:date .

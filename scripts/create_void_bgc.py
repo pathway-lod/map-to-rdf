@@ -74,7 +74,7 @@ DATASETS = """\
     dcterms:source <https://github.com/plantismash/plantismash/blob/master/antismash/generic_modules/knownclusterblast/knownclusters.txt> ;
     dcterms:license <http://rdf-plantmetwiki.bioinformatics.nl/license/cc-by-4.0> ;
     dcterms:rights "MIBiG data is available under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. Please cite: Terlouw et al. 2023 (doi:10.1093/nar/gkac1049)."@en ;
-    void:sparqlEndpoint <https://sparql-plantmetwiki.bioinformatics.nl/sparql> ;
+    void:sparqlEndpoint <https://plantmetwiki.bioinformatics.nl/sparql> ;
     void:vocabulary <http://rdf-plantmetwiki.bioinformatics.nl/vocab/> ,
                     <http://vocabularies.wikipathways.org/wp#> ,
                     <http://purl.obolibrary.org/obo/RO_> ,
@@ -103,7 +103,7 @@ DATASETS = """\
     dcterms:source <https://raw.githubusercontent.com/plantismash/plantismash-database/main/data/plantismash_v2_clusters_minimal.json> ;
     dcterms:license <http://rdf-plantmetwiki.bioinformatics.nl/license/gpl-3.0> ;
     dcterms:rights "plantiSMASH data is distributed under the GNU General Public License v3.0. Please cite: Kautsar et al. 2017 (doi:10.1093/nar/gkx338)."@en ;
-    void:sparqlEndpoint <https://sparql-plantmetwiki.bioinformatics.nl/sparql> ;
+    void:sparqlEndpoint <https://plantmetwiki.bioinformatics.nl/sparql> ;
     void:vocabulary <http://rdf-plantmetwiki.bioinformatics.nl/vocab/> ,
                     <http://vocabularies.wikipathways.org/wp#> ,
                     <http://purl.obolibrary.org/obo/RO_> ,
