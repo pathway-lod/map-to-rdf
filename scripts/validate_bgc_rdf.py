@@ -7,7 +7,7 @@ Checks performed
 2. Triple count   — both files have at least MIN_TRIPLES triples
 3. Required types — every cluster is typed as pmw:BiosyntheticGeneCluster
 4. Provenance     — every cluster has dcterms:source
-5. Gene links     — RO:0000051 (has_part) triples are present
+5. Gene links     — BFO:0000051 (has_part) triples are present
 6. Species        — at least one cluster carries wp:organism
 7. VoID           — void-bgc.ttl parses and declares both void:Dataset URIs
 8. Link table     — bgc_pathway_links.tsv exists and has the required columns
@@ -31,7 +31,7 @@ from rdflib.namespace import RDF, DCTERMS
 PMW   = Namespace("http://rdf-plantmetwiki.bioinformatics.nl/vocab/")
 WP    = Namespace("http://vocabularies.wikipathways.org/wp#")
 VOID  = Namespace("http://rdfs.org/ns/void#")
-RO_HAS_PART = URIRef("http://purl.obolibrary.org/obo/RO_0000051")
+BFO_HAS_PART = URIRef("http://purl.obolibrary.org/obo/BFO_0000051")
 
 # ── Thresholds ────────────────────────────────────────────────────────────
 MIN_TRIPLES = {
@@ -138,11 +138,11 @@ def check_dcterms_source(g: Graph, label: str, r: Results) -> None:
 
 
 def check_gene_links(g: Graph, label: str, r: Results) -> None:
-    links = list(g.triples((None, RO_HAS_PART, None)))
+    links = list(g.triples((None, BFO_HAS_PART, None)))
     r.check(
         len(links) > 0,
-        f"{label}: {len(links):,} RO:0000051 (has_part) gene links",
-        f"{label}: no RO:0000051 gene links found",
+        f"{label}: {len(links):,} BFO:0000051 (has_part) gene links",
+        f"{label}: no BFO:0000051 gene links found",
     )
 
 

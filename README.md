@@ -33,7 +33,7 @@ These RDF files can then be loaded into Virtuoso together with pathway RDF and q
 Biosynthetic gene clusters are treated as first-class RDF resources, independent of pathways.
 
 ``` 
-BGC  ── ro:0000051 (has_part) ──▶ gene / member
+BGC  ── bfo:0000051 (has_part) ──▶ gene / member
 ``` 
 
 Pathways are not modified at conversion time.
@@ -95,7 +95,7 @@ This avoids:
 
 ```
 BGC
- ├─ ro:0000051 → gene / member
+ ├─ bfo:0000051 → gene / member
  ├─ rdf:type → pmw:BiosyntheticGeneCluster
  └─ dcterms:source → "MIBIG" | "plantiSMASH"
 ```
@@ -103,7 +103,7 @@ Ontologies used
 
 | Purpose  | Ontology / Term  | 
 |---|---|
-|  Gene–cluster relation |  RO:0000051 (has_part) |  
+|  Gene–cluster relation |  BFO:0000051 (has_part) |  
 | Cluster type |  pmw:BiosyntheticGeneCluster |   
 | Gene type | wp:GeneProduct | 
 | Provenance |  dcterms:source | 
@@ -176,7 +176,7 @@ If a TAIR gene ID from the pathway appears directly in the MIBiG gene list:
 Then the following RDF is created:
 ```
 <https://bioregistry.io/mibig:BGC0000670>
-  ro:0000051 <https://identifiers.org/tair.locus/AT5G48000> .
+  bfo:0000051 <https://identifiers.org/tair.locus/AT5G48000> .
 ```
 
 This is fast, robust, and does not require BridgeDb
@@ -270,7 +270,7 @@ This checks 8 conditions across all output artefacts:
 | Triple count | ≥ 1,000 triples (plantiSMASH) and ≥ 100 (MIBiG) |
 | Cluster types | All clusters typed as `pmw:BiosyntheticGeneCluster` |
 | Provenance | All clusters have `dcterms:source` |
-| Gene links | `RO:0000051` (has_part) triples are present |
+| Gene links | `BFO:0000051` (has_part) triples are present |
 | Species | At least one `wp:organism` annotation |
 | VoID | `void-bgc.ttl` parses and declares both `void:Dataset` URIs |
 | Link table | `bgc_pathway_links.tsv` exists with all required columns |
@@ -299,13 +299,13 @@ python scripts/test_queries.py --pathways input_ttl/all_pathways.ttl --max-genes
 
 Cheat sheet using the OBO Relations Ontology model: 
 ```
-PREFIX ro: <http://purl.obolibrary.org/obo/RO_>
+PREFIX bfo: <http://purl.obolibrary.org/obo/BFO_>
 
 # cluster → genes
-?cluster ro:0000051 ?gene .
+?cluster bfo:0000051 ?gene .
 
 # gene → cluster
-?gene ro:0000050 ?cluster .
+?gene bfo:0000050 ?cluster .
 ``` 
 
 

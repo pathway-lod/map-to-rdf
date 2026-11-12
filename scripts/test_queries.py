@@ -151,7 +151,7 @@ def find_bgc_links_via_bridgedb(
     bgc_members_q = """
     SELECT ?cluster ?member ?source
     WHERE {
-        ?cluster obo:RO_0000051 ?member .
+        ?cluster obo:BFO_0000051 ?member .
         ?cluster dcterms:source ?source .
         FILTER(STRSTARTS(STR(?member), "https://identifiers.org/ncbigene:"))
     }
@@ -255,20 +255,20 @@ def main() -> int:
 
     run(g, """
         SELECT ?cluster ?gene
-        WHERE { ?cluster obo:RO_0000051 ?gene . }
+        WHERE { ?cluster obo:BFO_0000051 ?gene . }
         ORDER BY ?cluster ?gene
         LIMIT 20
     """, "A1) Sample gene→BGC links")
 
     run(g, """
         SELECT (COUNT(*) AS ?nLinks)
-        WHERE { ?cluster obo:RO_0000051 ?gene . }
+        WHERE { ?cluster obo:BFO_0000051 ?gene . }
     """, "A2) Total gene→BGC links")
 
     run(g, """
         SELECT ?source (COUNT(*) AS ?nLinks)
         WHERE {
-            ?cluster obo:RO_0000051 ?gene .
+            ?cluster obo:BFO_0000051 ?gene .
             ?cluster dcterms:source ?source .
         }
         GROUP BY ?source
@@ -303,7 +303,7 @@ def main() -> int:
             WHERE {
                 ?gene dcterms:isPartOf ?pathway .
                 FILTER(STRSTARTS(STR(?gene), "https://identifiers.org/tair.locus/"))
-                ?cluster obo:RO_0000051 ?gene .
+                ?cluster obo:BFO_0000051 ?gene .
                 ?cluster dcterms:source ?source .
             }
         """, "B1a) Count: distinct pathways / genes / BGC clusters linked")
@@ -313,7 +313,7 @@ def main() -> int:
             WHERE {
                 ?gene dcterms:isPartOf ?pathway .
                 FILTER(STRSTARTS(STR(?gene), "https://identifiers.org/tair.locus/"))
-                ?cluster obo:RO_0000051 ?gene .
+                ?cluster obo:BFO_0000051 ?gene .
                 ?cluster dcterms:source ?source .
             }
             ORDER BY ?cluster ?gene

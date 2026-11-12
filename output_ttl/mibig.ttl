@@ -9,7 +9,7 @@
 
 mibig:BGC0000669 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0000669" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT5G42580>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT5G42580>,
         <https://identifiers.org/tair.name/AT5G42590>,
         <https://identifiers.org/tair.name/AT5G42591>,
         <https://identifiers.org/tair.name/AT5G42600> ;
@@ -20,7 +20,7 @@ mibig:BGC0000669 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0000670 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0000670" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT5G48000_rename1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT5G48000_rename1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT5G48010_rename1>,
         <https://identifiers.org/tair.name/AT5G47980>,
         <https://identifiers.org/tair.name/AT5G47990>,
@@ -33,7 +33,7 @@ mibig:BGC0000670 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0000671 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0000671" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/BAF14085.1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/BAF14085.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/BAF14086.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/BAF14087.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/BAF14088.1>,
@@ -45,7 +45,7 @@ mibig:BGC0000671 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0000672 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0000672" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/BAF09097.1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/BAF09097.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/BAF09098.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/BAF09099.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/BAF09100.1>,
@@ -61,7 +61,7 @@ mibig:BGC0000672 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0000798 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0000798" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/SORBIDRAFT_01g001180>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/SORBIDRAFT_01g001180>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/SORBIDRAFT_01g001190>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/SORBIDRAFT_01g001200>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/SORBIDRAFT_01g001210>,
@@ -71,7 +71,7 @@ mibig:BGC0000798 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0000810 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0000810" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/ZEAMMB73_162311>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/ZEAMMB73_162311>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/ZEAMMB73_240456>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/ZEAMMB73_545831>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/ZEAMMB73_545831_rename1>,
@@ -93,7 +93,7 @@ mibig:BGC0000810 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0001313 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001313" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT4G15300_rename1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT4G15300_rename1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT4G15300_rename2>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT4G15320_rename1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT4G15320_rename2>,
@@ -130,7 +130,7 @@ mibig:BGC0001313 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0001314 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001314" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT5G36100_rename1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT5G36100_rename1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT5G36110_rename1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT5G36170_rename1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT5G36170_rename2>,
@@ -156,7 +156,7 @@ mibig:BGC0001314 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0001315 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001315" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/Csa_6G088160>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/Csa_6G088160>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/Csa_6G088170>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/Csa_6G088180>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/Csa_6G088680>,
@@ -167,7 +167,7 @@ mibig:BGC0001315 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0001316 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001316" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/chr3.CM0241.310.r2.m>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/chr3.CM0241.310.r2.m>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/chr3.CM0241.410.r2.d>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/chr3.CM0241.500.r2.d>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/chr3.CM0241.530.r2.d>,
@@ -196,7 +196,7 @@ mibig:BGC0001316 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0001317 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001317" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/chr3.CM0292.100.r2.m>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/chr3.CM0292.100.r2.m>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/chr3.CM0292.110.r2.m>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/chr3.CM0292.120.r2.m>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/chr3.CM0292.180.r2.m>,
@@ -219,7 +219,7 @@ mibig:BGC0001317 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0001318 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001318" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/Manes.12G132300>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/Manes.12G132300>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/Manes.12G132400>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/Manes.12G132500>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/Manes.12G132600>,
@@ -240,7 +240,7 @@ mibig:BGC0001318 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0001321 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001321" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AGK82828.1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AGK82828.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AGK82829.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AGK82830.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AGK82831.1>,
@@ -259,7 +259,7 @@ mibig:BGC0001321 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0001322 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001322" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AGK82800.1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AGK82800.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AGK82801.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AGK82802.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AGK82803.1>,
@@ -279,7 +279,7 @@ mibig:BGC0001322 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0001324 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001324" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AGK82811.1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AGK82811.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AGK82812.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AGK82813.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AGK82814.1>,
@@ -298,7 +298,7 @@ mibig:BGC0001324 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0001325 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001325" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/CYP719A21>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/CYP719A21>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/CYP82X1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/CYP82X2>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/CYP82Y1>,
@@ -313,7 +313,7 @@ mibig:BGC0001325 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0001756 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001756" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT3G14540_rename1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT3G14540_rename1>,
         <https://identifiers.org/tair.name/AT3G14490>,
         <https://identifiers.org/tair.name/AT3G14510>,
         <https://identifiers.org/tair.name/AT3G14520>,
@@ -327,7 +327,7 @@ mibig:BGC0001756 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0001799 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001799" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/O-methyltransferase-1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/O-methyltransferase-1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/O-methyltransferase-2>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/REPI1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/REPI2>,
@@ -344,7 +344,7 @@ mibig:BGC0001799 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0001997 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0001997" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/g105.t1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/g105.t1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/g106.t1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/g107.t1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/g108.t1>,
@@ -363,7 +363,7 @@ mibig:BGC0001997 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0002390 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002390" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/NP_001140431.1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/NP_001140431.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/NP_001141328.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/NP_001141366.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/NP_001142188.1>,
@@ -387,14 +387,14 @@ mibig:BGC0002390 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0002391 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002391" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/NP_001130688.1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/NP_001130688.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_008665446.1> ;
     dcterms:source "MIBIG" ;
     rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002391> .
 
 mibig:BGC0002392 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002392" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_070217600>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_070217600>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_070217800>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_070217850>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_070218200>,
@@ -415,7 +415,7 @@ mibig:BGC0002392 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0002393 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002393" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/RCOM_1574060>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/RCOM_1574060>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/RCOM_1574170>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/RCOM_1574180>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/RCOM_1574190>,
@@ -437,7 +437,7 @@ mibig:BGC0002393 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0002394 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002394" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/KI387_028798>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/KI387_028798>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/KI387_028799>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/KI387_028800>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/KI387_028801>,
@@ -448,7 +448,7 @@ mibig:BGC0002394 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0002395 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002395" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_044963914.1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_044963914.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_044963915.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_044963916.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_044963917.1>,
@@ -467,7 +467,7 @@ mibig:BGC0002395 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0002397 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002397" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT3G32030>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT3G32030>,
         <https://identifiers.org/tair.name/AT3G32040> ;
     dcterms:source "MIBIG" ;
     wp:organism ncbi:3702 ;
@@ -476,7 +476,7 @@ mibig:BGC0002397 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0002398 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002398" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT3G29410_rename1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT3G29410_rename1>,
         <https://identifiers.org/tair.name/AT3G29410>,
         <https://identifiers.org/tair.name/AT3G29430> ;
     dcterms:source "MIBIG" ;
@@ -486,7 +486,7 @@ mibig:BGC0002398 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0002400 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002400" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_013584735.1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_013584735.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_013584807.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_013637868.1> ;
     dcterms:source "MIBIG" ;
@@ -494,7 +494,7 @@ mibig:BGC0002400 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0002401 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002401" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT3G52440_rename1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT3G52440_rename1>,
         <https://identifiers.org/tair.name/AT3G52420>,
         <https://identifiers.org/tair.name/AT3G52430>,
         <https://identifiers.org/tair.name/AT3G52440>,
@@ -510,7 +510,7 @@ mibig:BGC0002401 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0002402 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002402" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/SOVF_107620>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/SOVF_107620>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/SOVF_107630>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/SOVF_107640>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/SOVF_107650>,
@@ -520,7 +520,7 @@ mibig:BGC0002402 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0002403 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002403" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AK373499>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AK373499>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/Hv_66C06_HlyIII>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/MLOC_13397>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/MLOC_59804> ;
@@ -529,7 +529,7 @@ mibig:BGC0002403 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0002404 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002404" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_004252844.1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_004252844.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_004252845.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_004252862.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_019067121.1> ;
@@ -538,7 +538,7 @@ mibig:BGC0002404 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0002405 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002405" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_004243624.1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_004243624.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_004243626.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_004243893.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_019070278.1> ;
@@ -547,7 +547,7 @@ mibig:BGC0002405 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0002406 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002406" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_100377800>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_100377800>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_100377800_rename1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_100377800_rename2>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_100378000>,
@@ -572,7 +572,7 @@ mibig:BGC0002406 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0002622 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002622" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_090543400>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_090543400>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_090543900>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/OSNPB_090544000> ;
     dcterms:source "MIBIG" ;
@@ -580,7 +580,7 @@ mibig:BGC0002622 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0002721 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002721" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_044983846.1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_044983846.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_044984006.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_044984106.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_044984175.1> ;
@@ -589,7 +589,7 @@ mibig:BGC0002721 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0002722 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002722" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_006351976.1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_006351976.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_006351977.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_006351978.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_006351979.1>,
@@ -616,14 +616,14 @@ mibig:BGC0002722 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0002723 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002723" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/NP_001292945.1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/NP_001292945.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_012066853.1> ;
     dcterms:source "MIBIG" ;
     rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002723> .
 
 mibig:BGC0002724 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002724" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_037497842.1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_037497842.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_037497843.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_037497844.1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/XP_037497855.1> ;
@@ -632,13 +632,13 @@ mibig:BGC0002724 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGC0002865 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002865" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AAS87170.1> ;
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AAS87170.1> ;
     dcterms:source "MIBIG" ;
     rdfs:seeAlso <https://mibig.secondarymetabolites.org/repository/BGC0002865> .
 
 mibig:BGC0002906 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGC0002906" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT5G25220_rename1>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT5G25220_rename1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT5G25320_rename1>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT5G25320_rename2>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AT5G25360_rename1>,
@@ -667,7 +667,7 @@ mibig:BGC0002906 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGCMANUAL1 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGCMANUAL1" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AS01G000160>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AS01G000160>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AS01G000170>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AS01G000190>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/AS01G000200>,
@@ -684,7 +684,7 @@ mibig:BGCMANUAL1 a pmw:BiosyntheticGeneCluster ;
 
 mibig:BGCMANUAL2 a pmw:BiosyntheticGeneCluster ;
     rdfs:label "mibig:BGCMANUAL2" ;
-    obo:RO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/O6P43_026337>,
+    obo:BFO_0000051 <http://rdf-plantmetwiki.bioinformatics.nl/id/member/O6P43_026337>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/O6P43_026338>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/O6P43_026339>,
         <http://rdf-plantmetwiki.bioinformatics.nl/id/member/O6P43_026340>,

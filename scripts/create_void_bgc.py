@@ -63,7 +63,7 @@ DATASETS = """\
 # ── MIBiG dataset ───────────────────────────────────────────────────────
 <http://rdf-plantmetwiki.bioinformatics.nl/dataset/bgc/mibig-4.0> a void:Dataset ;
     dcterms:title "PlantMetWiki BGC crosslinks — MIBiG 4.0"@en ;
-    dcterms:description "RDF representation of curated biosynthetic gene cluster (BGC) membership data from MIBiG 4.0. Clusters are typed as pmw:BiosyntheticGeneCluster and linked to their constituent genes via RO:0000051 (has_part). Gene identifiers are normalised to identifiers.org/tair.name/ for Arabidopsis thaliana. Unknown identifiers are preserved as pmw:MemberIdentifier nodes."@en ;
+    dcterms:description "RDF representation of curated biosynthetic gene cluster (BGC) membership data from MIBiG 4.0. Clusters are typed as pmw:BiosyntheticGeneCluster and linked to their constituent genes via BFO:0000051 (has_part). Gene identifiers are normalised to identifiers.org/tair.name/ for Arabidopsis thaliana. Unknown identifiers are preserved as pmw:MemberIdentifier nodes."@en ;
     dcterms:hasVersion "mibig-4.0" ;
     pav:version "mibig-4.0" ;
     pav:createdOn "{today}"^^xsd:date ;
@@ -77,7 +77,7 @@ DATASETS = """\
     void:sparqlEndpoint <https://plantmetwiki.bioinformatics.nl/sparql> ;
     void:vocabulary <http://rdf-plantmetwiki.bioinformatics.nl/vocab/> ,
                     <http://vocabularies.wikipathways.org/wp#> ,
-                    <http://purl.obolibrary.org/obo/RO_> ,
+                    <http://purl.obolibrary.org/obo/BFO_> ,
                     <http://purl.org/dc/terms/> ;
     foaf:homepage <https://plantmetwiki.bioinformatics.nl/> ;
     foaf:page <https://mibig.secondarymetabolites.org/> ;
@@ -92,7 +92,7 @@ DATASETS = """\
 # ── plantiSMASH dataset ─────────────────────────────────────────────────
 <http://rdf-plantmetwiki.bioinformatics.nl/dataset/bgc/plantismash-v2> a void:Dataset ;
     dcterms:title "PlantMetWiki BGC crosslinks — plantiSMASH v2"@en ;
-    dcterms:description "RDF representation of predicted biosynthetic gene cluster (BGC) membership data from the plantiSMASH pre-calculated database (v2), currently scoped to Arabidopsis thaliana clusters. Clusters are typed as pmw:BiosyntheticGeneCluster and linked to their constituent genes via RO:0000051 (has_part). Gene identifiers use identifiers.org/tair.name/ IRIs enabling direct SPARQL joins with the PlantMetWiki pathway graph."@en ;
+    dcterms:description "RDF representation of predicted biosynthetic gene cluster (BGC) membership data from the plantiSMASH pre-calculated database (v2), currently scoped to Arabidopsis thaliana clusters. Clusters are typed as pmw:BiosyntheticGeneCluster and linked to their constituent genes via BFO:0000051 (has_part). Gene identifiers use identifiers.org/tair.name/ IRIs enabling direct SPARQL joins with the PlantMetWiki pathway graph."@en ;
     dcterms:hasVersion "plantismash-v2" ;
     pav:version "plantismash-v2" ;
     pav:createdOn "{today}"^^xsd:date ;
@@ -106,7 +106,7 @@ DATASETS = """\
     void:sparqlEndpoint <https://plantmetwiki.bioinformatics.nl/sparql> ;
     void:vocabulary <http://rdf-plantmetwiki.bioinformatics.nl/vocab/> ,
                     <http://vocabularies.wikipathways.org/wp#> ,
-                    <http://purl.obolibrary.org/obo/RO_> ,
+                    <http://purl.obolibrary.org/obo/BFO_> ,
                     <http://purl.org/dc/terms/> ;
     foaf:homepage <https://plantmetwiki.bioinformatics.nl/> ;
     foaf:page <https://plantismash.bioinformatics.nl/> ;
@@ -124,7 +124,7 @@ DATASETS = """\
     dcterms:description "Links between biosynthetic gene cluster member genes (plantiSMASH / MIBiG) and PlantMetWiki pathway gene nodes, established via shared identifiers.org/tair.name/ IRIs for Arabidopsis thaliana. Derived by SPARQL join across the BGC and pathway graphs."@en ;
     void:subjectsTarget <http://rdf-plantmetwiki.bioinformatics.nl/dataset/bgc/plantismash-v2> ;
     void:objectsTarget  <http://rdf-plantmetwiki.bioinformatics.nl/dataset/plantcyc17.0.0-gpml2021/core> ;
-    void:linkPredicate  <http://purl.obolibrary.org/obo/RO_0000051> ;
+    void:linkPredicate  <http://purl.obolibrary.org/obo/BFO_0000051> ;
     dcterms:isPartOf <http://rdf-plantmetwiki.bioinformatics.nl/dataset/bgc/plantismash-v2> ;
     void:triples {link_triples} ;
     pav:createdOn "{today}"^^xsd:date .
