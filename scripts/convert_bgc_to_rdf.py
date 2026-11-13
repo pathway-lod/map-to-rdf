@@ -61,8 +61,8 @@ WP        = Namespace("http://vocabularies.wikipathways.org/wp#")
 FOAF      = Namespace("http://xmlns.com/foaf/0.1/")
 NCBITAXON = Namespace("http://purl.obolibrary.org/obo/NCBITaxon_")
 
-# Canonical RO has_part term
-RO_HAS_PART = URIRef("http://purl.obolibrary.org/obo/RO_0000051")
+# OBO has_part term (defined in BFO, reused by RO)
+BFO_HAS_PART = URIRef("http://purl.obolibrary.org/obo/BFO_0000051")
 
 # MIBiG stable identifier via Bioregistry
 MIBIG_BIOREGISTRY_PREFIX = "https://bioregistry.io/mibig:"
@@ -294,14 +294,14 @@ def convert_plantismash(
                 gene = mint_arabidopsis_gene_iri(resolved_id)
                 add_common_gene_metadata(g, gene, species_label, taxon_id)
                 add_gene_pages_arabidopsis(g, gene, resolved_id)
-                g.add((cluster, RO_HAS_PART, gene))
+                g.add((cluster, BFO_HAS_PART, gene))
                 summary["species"][species_label]["gene_links"] += 1
                 summary["species"][species_label]["unique_genes"].add(str(gene))
             else:
                 member = mint_member_identifier_iri(gene_id)
                 g.add((member, RDF.type, PMW.MemberIdentifier))
                 g.add((member, RDFS.label, Literal(gene_id)))
-                g.add((cluster, RO_HAS_PART, member))
+                g.add((cluster, BFO_HAS_PART, member))
 
     for sp_label in list(summary["species"].keys()):
         summary["species"][sp_label]["unique_genes"] = len(
@@ -358,7 +358,7 @@ def convert_mibig(
                 add_common_gene_metadata(g, gene, species_label, taxon_id)
                 add_gene_pages_arabidopsis(g, gene, member_id)
                 add_common_cluster_metadata(g, cluster, "MIBIG", species_label, taxon_id)
-                g.add((cluster, RO_HAS_PART, gene))
+                g.add((cluster, BFO_HAS_PART, gene))
                 summary["species"][species_label]["bgcs"].add(str(cluster))
                 summary["species"][species_label]["gene_links"] += 1
                 summary["species"][species_label]["unique_genes"].add(str(gene))
@@ -372,7 +372,7 @@ def convert_mibig(
                 add_common_gene_metadata(g, gene, species_label, taxon_id)
                 g.add((gene, FOAF.page, URIRef(ENSEMBL_TOMATO_SEARCH + member_id)))
                 add_common_cluster_metadata(g, cluster, "MIBIG", species_label, taxon_id)
-                g.add((cluster, RO_HAS_PART, gene))
+                g.add((cluster, BFO_HAS_PART, gene))
                 summary["species"][species_label]["bgcs"].add(str(cluster))
                 summary["species"][species_label]["gene_links"] += 1
                 summary["species"][species_label]["unique_genes"].add(str(gene))
@@ -383,7 +383,7 @@ def convert_mibig(
             member = mint_member_identifier_iri(member_id)
             g.add((member, RDF.type, PMW.MemberIdentifier))
             g.add((member, RDFS.label, Literal(member_id)))
-            g.add((cluster, RO_HAS_PART, member))
+            g.add((cluster, BFO_HAS_PART, member))
             summary["untyped"]["bgcs"].add(str(cluster))
             summary["untyped"]["member_links"] += 1
             summary["untyped"]["unique_members"].add(str(member))

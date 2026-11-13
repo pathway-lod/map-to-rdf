@@ -68,7 +68,7 @@ WHERE {
     OPTIONAL { ?pathway rdfs:label ?pathway_title . }
 
     # Gene in BGC
-    ?bgc obo:RO_0000051 ?gene .
+    ?bgc obo:BFO_0000051 ?gene .
     ?bgc dcterms:source ?bgc_source .
     OPTIONAL { ?bgc wp:organismName ?bgc_species . }
     OPTIONAL { ?bgc wp:organism    ?bgc_taxon   . }
@@ -88,7 +88,7 @@ SELECT DISTINCT
     ?gene ?pathway ?pathway_title ?bgc ?bgc_source ?bgc_species ?bgc_taxon
 WHERE {
     # BGC tomato gene (ensembl.plant: IRI)
-    ?bgc obo:RO_0000051 ?gene .
+    ?bgc obo:BFO_0000051 ?gene .
     ?bgc dcterms:source ?bgc_source .
     OPTIONAL { ?bgc wp:organismName ?bgc_species . }
     OPTIONAL { ?bgc wp:organism    ?bgc_taxon   . }
@@ -132,7 +132,7 @@ WHERE {
     OPTIONAL { ?pathway dcterms:title ?pathway_title . }
 
     # Gene in BGC
-    ?bgc obo:RO_0000051 ?gene .
+    ?bgc obo:BFO_0000051 ?gene .
     ?bgc dcterms:source ?bgc_source .
     OPTIONAL { ?bgc wp:organismName ?bgc_species . }
     OPTIONAL { ?bgc wp:organism    ?bgc_taxon   . }

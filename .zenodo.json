@@ -1,6 +1,6 @@
 {
   "title": "PlantMetWiki BGC crosslinks: MIBiG and plantiSMASH to RDF",
-  "description": "RDF Turtle files linking biosynthetic gene cluster (BGC) data from MIBiG (curated) and plantiSMASH (predicted) to the PlantMetWiki / WikiPathways pathway knowledge graph, derived from PlantCyc 17.0. BGCs are typed as pmw:BiosyntheticGeneCluster and connected to pathway genes via RO:0000051 (has_part). For Arabidopsis thaliana, direct SPARQL joins are enabled through shared identifiers.org/tair.name/ IRIs. Includes VoID metadata, input gene-cluster membership JSON files, and a summary table of BGC–pathway gene crosslinks (199 unique links across 38 BGCs, 50 genes, and 109 metabolic pathways for Arabidopsis thaliana).",
+  "description": "RDF Turtle files linking biosynthetic gene cluster (BGC) data from MIBiG (curated) and plantiSMASH (predicted) to the PlantMetWiki / WikiPathways pathway knowledge graph, derived from PlantCyc 17.0. BGCs are typed as pmw:BiosyntheticGeneCluster and connected to pathway genes via BFO:0000051 (has_part). For Arabidopsis thaliana, direct SPARQL joins are enabled through shared identifiers.org/tair.name/ IRIs. Includes VoID metadata, input gene-cluster membership JSON files, and a summary table of BGC–pathway gene crosslinks (199 unique links across 38 BGCs, 50 genes, and 109 metabolic pathways for Arabidopsis thaliana).",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "cc-by-4.0",

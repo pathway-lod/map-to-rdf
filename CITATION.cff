@@ -12,7 +12,7 @@ abstract: >
   MIBiG (curated) and plantiSMASH (predicted) to the PlantMetWiki /
   WikiPathways pathway knowledge graph, derived from PlantCyc 17.0.
   BGCs are typed as pmw:BiosyntheticGeneCluster and connected to pathway
-  genes via RO:0000051 (has_part). For Arabidopsis thaliana, direct
+  genes via BFO:0000051 (has_part). For Arabidopsis thaliana, direct
   SPARQL joins are enabled through shared identifiers.org/tair.name/ IRIs.
 authors:
   - family-names: Del Pup

@@ -8,7 +8,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-1> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-1" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT1G01960>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT1G01960>,
         <https://identifiers.org/tair.name/AT1G01970>,
         <https://identifiers.org/tair.name/AT1G01980>,
         <https://identifiers.org/tair.name/AT1G01990>,
@@ -26,7 +26,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-10> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-10" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT1G60160>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT1G60160>,
         <https://identifiers.org/tair.name/AT1G60170>,
         <https://identifiers.org/tair.name/AT1G60190>,
         <https://identifiers.org/tair.name/AT1G60200>,
@@ -65,7 +65,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-11> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-11" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT1G62780>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT1G62780>,
         <https://identifiers.org/tair.name/AT1G62790>,
         <https://identifiers.org/tair.name/AT1G62800>,
         <https://identifiers.org/tair.name/AT1G62810>,
@@ -79,7 +79,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-12> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-12" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT1G62880>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT1G62880>,
         <https://identifiers.org/tair.name/AT1G62886>,
         <https://identifiers.org/tair.name/AT1G62895>,
         <https://identifiers.org/tair.name/AT1G62900>,
@@ -107,7 +107,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-13> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-13" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT1G64890>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT1G64890>,
         <https://identifiers.org/tair.name/AT1G64900>,
         <https://identifiers.org/tair.name/AT1G64910>,
         <https://identifiers.org/tair.name/AT1G64920>,
@@ -124,7 +124,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-14> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-14" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT1G65820>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT1G65820>,
         <https://identifiers.org/tair.name/AT1G65840>,
         <https://identifiers.org/tair.name/AT1G65845>,
         <https://identifiers.org/tair.name/AT1G65850>,
@@ -140,7 +140,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-15> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-15" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT1G70160>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT1G70160>,
         <https://identifiers.org/tair.name/AT1G70170>,
         <https://identifiers.org/tair.name/AT1G70175>,
         <https://identifiers.org/tair.name/AT1G70180>,
@@ -192,7 +192,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-16> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-16" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT1G73240>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT1G73240>,
         <https://identifiers.org/tair.name/AT1G73250>,
         <https://identifiers.org/tair.name/AT1G73260>,
         <https://identifiers.org/tair.name/AT1G73270>,
@@ -216,7 +216,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-17> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-17" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT1G78430>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT1G78430>,
         <https://identifiers.org/tair.name/AT1G78440>,
         <https://identifiers.org/tair.name/AT1G78450>,
         <https://identifiers.org/tair.name/AT1G78460>,
@@ -240,7 +240,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-18> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-18" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT2G11773>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT2G11773>,
         <https://identifiers.org/tair.name/AT2G11778>,
         <https://identifiers.org/tair.name/AT2G11810>,
         <https://identifiers.org/tair.name/AT2G11815>,
@@ -269,7 +269,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-19> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-19" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT2G22900>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT2G22900>,
         <https://identifiers.org/tair.name/AT2G22905>,
         <https://identifiers.org/tair.name/AT2G22910>,
         <https://identifiers.org/tair.name/AT2G22920>,
@@ -302,7 +302,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-2> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-2" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT1G22330>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT1G22330>,
         <https://identifiers.org/tair.name/AT1G22340>,
         <https://identifiers.org/tair.name/AT1G22360>,
         <https://identifiers.org/tair.name/AT1G22370>,
@@ -321,7 +321,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-20> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-20" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT2G23180>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT2G23180>,
         <https://identifiers.org/tair.name/AT2G23190>,
         <https://identifiers.org/tair.name/AT2G23200>,
         <https://identifiers.org/tair.name/AT2G23210>,
@@ -339,7 +339,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-21> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-21" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT2G24180>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT2G24180>,
         <https://identifiers.org/tair.name/AT2G24190>,
         <https://identifiers.org/tair.name/AT2G24195>,
         <https://identifiers.org/tair.name/AT2G24200>,
@@ -353,7 +353,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-22> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-22" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT2G26150>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT2G26150>,
         <https://identifiers.org/tair.name/AT2G26160>,
         <https://identifiers.org/tair.name/AT2G26170>,
         <https://identifiers.org/tair.name/AT2G26180>,
@@ -378,7 +378,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-23> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-23" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT2G29250>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT2G29250>,
         <https://identifiers.org/tair.name/AT2G29260>,
         <https://identifiers.org/tair.name/AT2G29263>,
         <https://identifiers.org/tair.name/AT2G29290>,
@@ -400,7 +400,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-24> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-24" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT2G29690>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT2G29690>,
         <https://identifiers.org/tair.name/AT2G29700>,
         <https://identifiers.org/tair.name/AT2G29710>,
         <https://identifiers.org/tair.name/AT2G29720>,
@@ -416,7 +416,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-25> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-25" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT2G31725>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT2G31725>,
         <https://identifiers.org/tair.name/AT2G31730>,
         <https://identifiers.org/tair.name/AT2G31740>,
         <https://identifiers.org/tair.name/AT2G31750>,
@@ -433,7 +433,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-26> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-26" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT2G34750>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT2G34750>,
         <https://identifiers.org/tair.name/AT2G34770>,
         <https://identifiers.org/tair.name/AT2G34780>,
         <https://identifiers.org/tair.name/AT2G34790>,
@@ -452,7 +452,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-27> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-27" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT2G40180>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT2G40180>,
         <https://identifiers.org/tair.name/AT2G40190>,
         <https://identifiers.org/tair.name/AT2G40200>,
         <https://identifiers.org/tair.name/AT2G40205>,
@@ -473,7 +473,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-28> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-28" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT2G44440>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT2G44440>,
         <https://identifiers.org/tair.name/AT2G44450>,
         <https://identifiers.org/tair.name/AT2G44460>,
         <https://identifiers.org/tair.name/AT2G44470>,
@@ -491,7 +491,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-29> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-29" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT3G10180>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT3G10180>,
         <https://identifiers.org/tair.name/AT3G10190>,
         <https://identifiers.org/tair.name/AT3G10195>,
         <https://identifiers.org/tair.name/AT3G10200>,
@@ -511,7 +511,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-3> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-3" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT1G23500>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT1G23500>,
         <https://identifiers.org/tair.name/AT1G23510>,
         <https://identifiers.org/tair.name/AT1G23520>,
         <https://identifiers.org/tair.name/AT1G23530>,
@@ -562,7 +562,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-30> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-30" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT3G10330>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT3G10330>,
         <https://identifiers.org/tair.name/AT3G10340>,
         <https://identifiers.org/tair.name/AT3G10350>,
         <https://identifiers.org/tair.name/AT3G10360>,
@@ -586,7 +586,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-31> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-31" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT3G13600>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT3G13600>,
         <https://identifiers.org/tair.name/AT3G13610>,
         <https://identifiers.org/tair.name/AT3G13620>,
         <https://identifiers.org/tair.name/AT3G13630>,
@@ -613,7 +613,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-32> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-32" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT3G14470>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT3G14470>,
         <https://identifiers.org/tair.name/AT3G14480>,
         <https://identifiers.org/tair.name/AT3G14490>,
         <https://identifiers.org/tair.name/AT3G14510>,
@@ -629,7 +629,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-33> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-33" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT3G23780>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT3G23780>,
         <https://identifiers.org/tair.name/AT3G23790>,
         <https://identifiers.org/tair.name/AT3G23800>,
         <https://identifiers.org/tair.name/AT3G23805>,
@@ -645,7 +645,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-34> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-34" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT3G29180>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT3G29180>,
         <https://identifiers.org/tair.name/AT3G29185>,
         <https://identifiers.org/tair.name/AT3G29190>,
         <https://identifiers.org/tair.name/AT3G29200>,
@@ -661,7 +661,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-35> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-35" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT3G29400>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT3G29400>,
         <https://identifiers.org/tair.name/AT3G29410>,
         <https://identifiers.org/tair.name/AT3G29430> ;
     dcterms:source "plantiSMASH" ;
@@ -671,7 +671,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-36> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-36" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT3G29580>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT3G29580>,
         <https://identifiers.org/tair.name/AT3G29590>,
         <https://identifiers.org/tair.name/AT3G29630>,
         <https://identifiers.org/tair.name/AT3G29631>,
@@ -688,7 +688,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-37> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-37" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT3G32030>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT3G32030>,
         <https://identifiers.org/tair.name/AT3G32040>,
         <https://identifiers.org/tair.name/AT3G32047>,
         <https://identifiers.org/tair.name/AT3G32050>,
@@ -700,7 +700,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-38> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-38" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT3G45100>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT3G45100>,
         <https://identifiers.org/tair.name/AT3G45110>,
         <https://identifiers.org/tair.name/AT3G45130>,
         <https://identifiers.org/tair.name/AT3G45140>,
@@ -713,7 +713,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-39> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-39" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT3G53110>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT3G53110>,
         <https://identifiers.org/tair.name/AT3G53120>,
         <https://identifiers.org/tair.name/AT3G53130>,
         <https://identifiers.org/tair.name/AT3G53140>,
@@ -728,7 +728,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-4> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-4" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT1G24000>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT1G24000>,
         <https://identifiers.org/tair.name/AT1G24010>,
         <https://identifiers.org/tair.name/AT1G24020>,
         <https://identifiers.org/tair.name/AT1G24030>,
@@ -749,7 +749,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-40> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-40" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT3G53250>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT3G53250>,
         <https://identifiers.org/tair.name/AT3G53260>,
         <https://identifiers.org/tair.name/AT3G53270>,
         <https://identifiers.org/tair.name/AT3G53280>,
@@ -765,7 +765,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-41> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-41" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT3G55960>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT3G55960>,
         <https://identifiers.org/tair.name/AT3G55970>,
         <https://identifiers.org/tair.name/AT3G55980>,
         <https://identifiers.org/tair.name/AT3G55990>,
@@ -787,7 +787,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-42> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-42" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT3G57000>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT3G57000>,
         <https://identifiers.org/tair.name/AT3G57010>,
         <https://identifiers.org/tair.name/AT3G57020>,
         <https://identifiers.org/tair.name/AT3G57030>,
@@ -801,7 +801,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-43> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-43" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT4G12230>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT4G12230>,
         <https://identifiers.org/tair.name/AT4G12240>,
         <https://identifiers.org/tair.name/AT4G12250>,
         <https://identifiers.org/tair.name/AT4G12270>,
@@ -820,7 +820,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-44> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-44" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT4G13350>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT4G13350>,
         <https://identifiers.org/tair.name/AT4G13360>,
         <https://identifiers.org/tair.name/AT4G13370>,
         <https://identifiers.org/tair.name/AT4G13380>,
@@ -836,7 +836,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-45> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-45" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT4G14050>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT4G14050>,
         <https://identifiers.org/tair.name/AT4G14060>,
         <https://identifiers.org/tair.name/AT4G14070>,
         <https://identifiers.org/tair.name/AT4G14080>,
@@ -850,7 +850,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-46> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-46" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT4G15230>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT4G15230>,
         <https://identifiers.org/tair.name/AT4G15233>,
         <https://identifiers.org/tair.name/AT4G15236>,
         <https://identifiers.org/tair.name/AT4G15240>,
@@ -883,7 +883,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-47> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-47" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT4G16700>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT4G16700>,
         <https://identifiers.org/tair.name/AT4G16710>,
         <https://identifiers.org/tair.name/AT4G16720>,
         <https://identifiers.org/tair.name/AT4G16730>,
@@ -905,7 +905,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-48> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-48" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT4G20190>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT4G20190>,
         <https://identifiers.org/tair.name/AT4G20200>,
         <https://identifiers.org/tair.name/AT4G20210>,
         <https://identifiers.org/tair.name/AT4G20220>,
@@ -920,7 +920,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-49> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-49" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT4G20740>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT4G20740>,
         <https://identifiers.org/tair.name/AT4G20760>,
         <https://identifiers.org/tair.name/AT4G20770>,
         <https://identifiers.org/tair.name/AT4G20780>,
@@ -946,7 +946,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-5> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-5" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT1G24340>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT1G24340>,
         <https://identifiers.org/tair.name/AT1G24350>,
         <https://identifiers.org/tair.name/AT1G24360>,
         <https://identifiers.org/tair.name/AT1G24380>,
@@ -970,7 +970,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-50> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-50" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT4G23580>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT4G23580>,
         <https://identifiers.org/tair.name/AT4G23590>,
         <https://identifiers.org/tair.name/AT4G23600>,
         <https://identifiers.org/tair.name/AT4G23610>,
@@ -990,7 +990,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-51> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-51" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT5G16900>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT5G16900>,
         <https://identifiers.org/tair.name/AT5G16910>,
         <https://identifiers.org/tair.name/AT5G16920>,
         <https://identifiers.org/tair.name/AT5G16930>,
@@ -1014,7 +1014,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-52> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-52" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT5G23910>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT5G23910>,
         <https://identifiers.org/tair.name/AT5G23920>,
         <https://identifiers.org/tair.name/AT5G23930>,
         <https://identifiers.org/tair.name/AT5G23940>,
@@ -1029,7 +1029,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-53> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-53" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT5G25400>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT5G25400>,
         <https://identifiers.org/tair.name/AT5G25410>,
         <https://identifiers.org/tair.name/AT5G25415>,
         <https://identifiers.org/tair.name/AT5G25420>,
@@ -1077,7 +1077,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-54> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-54" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT5G36100>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT5G36100>,
         <https://identifiers.org/tair.name/AT5G36110>,
         <https://identifiers.org/tair.name/AT5G36120>,
         <https://identifiers.org/tair.name/AT5G36130>,
@@ -1097,7 +1097,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-55> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-55" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT5G37920>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT5G37920>,
         <https://identifiers.org/tair.name/AT5G37930>,
         <https://identifiers.org/tair.name/AT5G37940>,
         <https://identifiers.org/tair.name/AT5G37950>,
@@ -1127,7 +1127,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-56> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-56" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT5G42220>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT5G42220>,
         <https://identifiers.org/tair.name/AT5G42223>,
         <https://identifiers.org/tair.name/AT5G42230>,
         <https://identifiers.org/tair.name/AT5G42232>,
@@ -1144,7 +1144,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-57> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-57" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT5G42480>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT5G42480>,
         <https://identifiers.org/tair.name/AT5G42490>,
         <https://identifiers.org/tair.name/AT5G42500>,
         <https://identifiers.org/tair.name/AT5G42504>,
@@ -1166,7 +1166,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-58> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-58" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT5G44360>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT5G44360>,
         <https://identifiers.org/tair.name/AT5G44370>,
         <https://identifiers.org/tair.name/AT5G44380>,
         <https://identifiers.org/tair.name/AT5G44390>,
@@ -1189,7 +1189,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-59> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-59" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT5G44610>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT5G44610>,
         <https://identifiers.org/tair.name/AT5G44620>,
         <https://identifiers.org/tair.name/AT5G44630>,
         <https://identifiers.org/tair.name/AT5G44635>,
@@ -1203,7 +1203,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-6> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-6" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT1G30500>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT1G30500>,
         <https://identifiers.org/tair.name/AT1G30510>,
         <https://identifiers.org/tair.name/AT1G30515>,
         <https://identifiers.org/tair.name/AT1G30520>,
@@ -1216,7 +1216,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-60> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-60" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT5G47940>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT5G47940>,
         <https://identifiers.org/tair.name/AT5G47950>,
         <https://identifiers.org/tair.name/AT5G47960>,
         <https://identifiers.org/tair.name/AT5G47970>,
@@ -1233,7 +1233,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-61> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-61" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT5G49010>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT5G49010>,
         <https://identifiers.org/tair.name/AT5G49015>,
         <https://identifiers.org/tair.name/AT5G49020>,
         <https://identifiers.org/tair.name/AT5G49030>,
@@ -1248,7 +1248,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-62> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-62" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT5G53960>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT5G53960>,
         <https://identifiers.org/tair.name/AT5G53970>,
         <https://identifiers.org/tair.name/AT5G53980>,
         <https://identifiers.org/tair.name/AT5G53990>,
@@ -1262,7 +1262,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-63> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-63" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT5G57220>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT5G57220>,
         <https://identifiers.org/tair.name/AT5G57230>,
         <https://identifiers.org/tair.name/AT5G57240>,
         <https://identifiers.org/tair.name/AT5G57250>,
@@ -1279,7 +1279,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-64> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-64" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT5G58740>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT5G58740>,
         <https://identifiers.org/tair.name/AT5G58750>,
         <https://identifiers.org/tair.name/AT5G58760>,
         <https://identifiers.org/tair.name/AT5G58770>,
@@ -1294,7 +1294,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-65> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-65" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT5G63550>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT5G63550>,
         <https://identifiers.org/tair.name/AT5G63560>,
         <https://identifiers.org/tair.name/AT5G63570>,
         <https://identifiers.org/tair.name/AT5G63580>,
@@ -1311,7 +1311,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-7> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-7" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT1G30690>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT1G30690>,
         <https://identifiers.org/tair.name/AT1G30700>,
         <https://identifiers.org/tair.name/AT1G30710>,
         <https://identifiers.org/tair.name/AT1G30720>,
@@ -1329,7 +1329,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-8> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-8" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT1G49040>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT1G49040>,
         <https://identifiers.org/tair.name/AT1G49050>,
         <https://identifiers.org/tair.name/AT1G49100>,
         <https://identifiers.org/tair.name/AT1G49110>,
@@ -1388,7 +1388,7 @@
 
 <https://plantismash.bioinformatics.nl/precalc/v2/Arabidopsis_thaliana_GCF_000001735.4/#cluster-9> a pmw:BiosyntheticGeneCluster ;
     rdfs:label "#cluster-9" ;
-    obo:RO_0000051 <https://identifiers.org/tair.name/AT1G52780>,
+    obo:BFO_0000051 <https://identifiers.org/tair.name/AT1G52780>,
         <https://identifiers.org/tair.name/AT1G52790>,
         <https://identifiers.org/tair.name/AT1G52800>,
         <https://identifiers.org/tair.name/AT1G52810>,
